@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "/Users/adriendl/.nvm/versions/node/v22.16.0/bin/node",
+      "runtimeArgs": ["/Users/adriendl/Documents/dev/Rentsell/node_modules/.bin/vite", "--port", "5174"],
+      "port": 5174
+    }
+  ]
+}

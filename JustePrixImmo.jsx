@@ -141,14 +141,32 @@ function gameReducer(state, action) {
 
 function PhotoCarousel({ images }) {
   const [idx, setIdx] = useState(0);
+  const touchRef = useRef({ startX: 0, startY: 0 });
 
   useEffect(() => { setIdx(0); }, [images]);
 
   const prev = () => setIdx((i) => (i === 0 ? images.length - 1 : i - 1));
   const next = () => setIdx((i) => (i === images.length - 1 ? 0 : i + 1));
 
+  const onTouchStart = (e) => {
+    touchRef.current.startX = e.touches[0].clientX;
+    touchRef.current.startY = e.touches[0].clientY;
+  };
+
+  const onTouchEnd = (e) => {
+    const dx = e.changedTouches[0].clientX - touchRef.current.startX;
+    const dy = e.changedTouches[0].clientY - touchRef.current.startY;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+      dx < 0 ? next() : prev();
+    }
+  };
+
   return (
-    <div className="relative w-full h-full min-h-[250px] bg-gray-800 rounded-xl overflow-hidden group">
+    <div
+      className="relative w-full h-full min-h-[250px] bg-gray-800 rounded-xl overflow-hidden group"
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+    >
       {images.map((src, i) => (
         <img
           key={src}

@@ -20,7 +20,10 @@ services:
     command: uvicorn app.api.main:app --host 0.0.0.0 --port 8000 --reload
     ports:
       - "8000:8000"
-    env_file: backend/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://justeprix:justeprix@postgres:5432/justeprix
+      REDIS_URL: redis://redis:6379/0
+      CORS_ORIGINS: "http://localhost:5173,http://localhost:5174,https://adriendl.github.io"
     depends_on:
       - postgres
       - redis
@@ -30,7 +33,9 @@ services:
   worker:
     build: ./backend
     command: celery -A app.worker.celery_app worker --loglevel=info
-    env_file: backend/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://justeprix:justeprix@postgres:5432/justeprix
+      REDIS_URL: redis://redis:6379/0
     depends_on:
       - postgres
       - redis
@@ -40,7 +45,8 @@ services:
   beat:
     build: ./backend
     command: celery -A app.worker.celery_app beat --loglevel=info
-    env_file: backend/.env
+    environment:
+      REDIS_URL: redis://redis:6379/0
     depends_on:
       - redis
     volumes:

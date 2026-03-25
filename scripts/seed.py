@@ -12,8 +12,6 @@ from pathlib import Path
 backend_dir = Path(__file__).resolve().parent.parent / "backend"
 sys.path.insert(0, str(backend_dir))
 
-from app.database import Base, init_engine, async_session_maker
-from app.models import Listing, PriceHistory
 from app.pipeline.deduplicator import compute_dedup_hash
 from app.pipeline.normalizer import make_city_slug
 
@@ -27,9 +25,15 @@ def extract_source_id(url: str) -> str:
 
 
 async def seed():
+    # Import and init engine, then grab the live references
+    from app.database import Base, init_engine, engine as _eng
     init_engine()
 
-    async with async_session_maker.begin() as conn:
+    # Re-import after init to get the actual objects (not the initial None)
+    import app.database as db
+    from app.models import Listing, PriceHistory
+
+    async with db.engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
 
     json_path = Path(__file__).resolve().parent.parent / "apartments.json"
@@ -40,7 +44,7 @@ async def seed():
     apartments = json.loads(json_path.read_text("utf-8"))
     inserted, skipped = 0, 0
 
-    async with async_session_maker() as session:
+    async with db.async_session_maker() as session:
         for apt in apartments:
             city_slug = make_city_slug(apt["city"])
             price = int(apt["price"])
@@ -72,8 +76,9 @@ async def seed():
                 source_url=apt.get("source"),
                 is_active=True,
             )
+            history = PriceHistory(price=price)
+            listing.price_history.append(history)
             session.add(listing)
-            session.add(PriceHistory(listing_id=listing.id, price=price))
             inserted += 1
 
         await session.commit()

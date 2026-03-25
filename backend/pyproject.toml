@@ -1,0 +1,40 @@
+[project]
+name = "justeprix-backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115",
+    "uvicorn[standard]>=0.34",
+    "sqlalchemy[asyncio]>=2.0",
+    "asyncpg>=0.30",
+    "alembic>=1.14",
+    "celery[redis]>=5.4",
+    "httpx>=0.28",
+    "beautifulsoup4>=4.12",
+    "pydantic-settings>=2.7",
+    "tenacity>=9.0",
+    "python-slugify>=8.0",
+    "boto3>=1.36",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.25",
+    "aiosqlite>=0.20",
+    "ruff>=0.9",
+]
+browser = [
+    "playwright>=1.49",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

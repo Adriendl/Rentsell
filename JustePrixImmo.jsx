@@ -163,7 +163,7 @@ function PhotoCarousel({ images }) {
 
   return (
     <div
-      className="relative w-full h-full min-h-[250px] bg-gray-800 rounded-xl overflow-hidden group touch-none"
+      className="relative w-full h-full min-h-[250px] bg-gray-800 rounded-xl overflow-hidden group touch-pan-y"
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
     >

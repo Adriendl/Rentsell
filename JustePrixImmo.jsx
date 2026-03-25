@@ -163,7 +163,7 @@ function PhotoCarousel({ images }) {
 
   return (
     <div
-      className="relative w-full h-full min-h-[250px] bg-gray-800 rounded-xl overflow-hidden group"
+      className="relative w-full h-full min-h-[250px] bg-gray-800 rounded-xl overflow-hidden group touch-none"
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
     >
@@ -524,7 +524,7 @@ function GameOverScreen({ roundHistory, totalScore, onRestart }) {
 
 function WelcomeScreen({ onStart }) {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-6 animate-fadeIn">
+    <div className="flex flex-col items-center justify-center h-full overflow-y-auto p-6 animate-fadeIn">
       <div className="w-full max-w-lg space-y-8 text-center">
         <div className="space-y-3">
           <div className="text-6xl">🏠</div>
@@ -610,7 +610,7 @@ export default function JustePrixImmo() {
 
   if (state.phase === 'menu') {
     return (
-      <div className="min-h-screen bg-gray-950">
+      <div className="h-full bg-gray-950 overflow-hidden">
         <WelcomeScreen onStart={() => dispatch({ type: 'START_GAME' })} />
       </div>
     );
@@ -618,7 +618,7 @@ export default function JustePrixImmo() {
 
   if (state.phase === 'gameover') {
     return (
-      <div className="min-h-screen bg-gray-950 p-4 flex flex-col items-center justify-center">
+      <div className="h-full bg-gray-950 p-4 flex flex-col items-center justify-center overflow-y-auto">
         <GameOverScreen
           roundHistory={state.roundHistory}
           totalScore={state.totalScore}
@@ -634,9 +634,9 @@ export default function JustePrixImmo() {
     const lastRound = state.roundHistory[state.roundHistory.length - 1];
     const isLast = state.currentRound >= state.apartments.length - 1;
     return (
-      <div className="min-h-screen bg-gray-950">
+      <div className="h-full bg-gray-950 flex flex-col overflow-hidden">
         {/* Header */}
-        <div className="bg-gray-900 border-b border-gray-800 px-4 py-3">
+        <div className="bg-gray-900 border-b border-gray-800 px-4 py-3 shrink-0">
           <div className="max-w-6xl mx-auto flex items-center justify-between">
             <h1 className="text-lg font-bold text-white">
               Juste<span className="text-emerald-400">Prix</span> Immo
@@ -652,7 +652,7 @@ export default function JustePrixImmo() {
             </div>
           </div>
         </div>
-        <div className="p-4 flex items-center justify-center" style={{ minHeight: 'calc(100vh - 56px)' }}>
+        <div className="flex-1 p-4 flex items-center justify-center overflow-y-auto">
           <ResultScreen roundData={lastRound} onNext={() => dispatch({ type: 'NEXT_ROUND' })} isLast={isLast} />
         </div>
       </div>
@@ -661,7 +661,7 @@ export default function JustePrixImmo() {
 
   // PLAYING phase
   return (
-    <div className="min-h-screen bg-gray-950 flex flex-col">
+    <div className="h-full bg-gray-950 flex flex-col overflow-hidden">
       {/* Header */}
       <div className="bg-gray-900 border-b border-gray-800 px-4 py-3 shrink-0">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
@@ -697,7 +697,7 @@ export default function JustePrixImmo() {
       </div>
 
       {/* Main content */}
-      <div className="flex-1 max-w-6xl mx-auto w-full p-4 grid grid-cols-1 lg:grid-cols-5 gap-4">
+      <div className="flex-1 max-w-6xl mx-auto w-full p-4 grid grid-cols-1 lg:grid-cols-5 gap-4 overflow-y-auto">
         {/* Left: Photos (3/5) */}
         <div className="lg:col-span-3 h-[300px] lg:h-auto">
           <PhotoCarousel images={apt.images} />

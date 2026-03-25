@@ -298,9 +298,7 @@ function PriceInput({ value, onChange, onSubmit, disabled }) {
     onSubmit(value);
   };
 
-  useEffect(() => {
-    if (!disabled && inputRef.current) inputRef.current.focus();
-  }, [disabled]);
+
 
   return (
     <form onSubmit={handleSubmit} className="w-full space-y-3">
@@ -697,7 +695,7 @@ export default function JustePrixImmo() {
       </div>
 
       {/* Main content */}
-      <div className="flex-1 max-w-6xl mx-auto w-full p-4 grid grid-cols-1 lg:grid-cols-5 gap-4 overflow-y-auto">
+      <div className="flex-1 max-w-6xl mx-auto w-full p-4 grid grid-cols-1 lg:grid-cols-5 gap-4 overflow-y-auto touch-pan-y">
         {/* Left: Photos (3/5) */}
         <div className="lg:col-span-3 h-[300px] lg:h-auto">
           <PhotoCarousel images={apt.images} />

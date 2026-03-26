@@ -664,7 +664,7 @@ const TUTORIAL_SLIDES = [
   {
     icon: MapPin,
     title: 'La localisation',
-    description: 'La carte montre le quartier — le prix varie énormément selon l\'emplacement !',
+    description: 'La carte montre le quartier : le prix varie énormément selon l\'emplacement !',
     color: 'emerald',
   },
   {

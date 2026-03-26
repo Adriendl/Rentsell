@@ -2,9 +2,51 @@ import React, { useState, useReducer, useRef, useEffect, useCallback } from 'rea
 import {
   ChevronLeft, ChevronRight, Timer, Home, MapPin, Trophy,
   Play, Maximize, RotateCcw, Target, Clock, TrendingUp,
-  TrendingDown, Award, ArrowRight, Info, ExternalLink, Loader2
+  TrendingDown, Award, ArrowRight, Info, ExternalLink, Loader2,
+  Map, Building2
 } from 'lucide-react';
 import APARTMENTS_DB from './apartments.json';
+
+// ============================================================
+// METRO AREAS — proximity-based city grouping
+// ============================================================
+
+const METRO_AREAS = [
+  { key: 'paris',      label: 'Paris',      emoji: '🗼', lat: 48.8566, lng: 2.3522, radius: 25 },
+  { key: 'lyon',       label: 'Lyon',       emoji: '🦁', lat: 45.7640, lng: 4.8357, radius: 20 },
+  { key: 'marseille',  label: 'Marseille',  emoji: '⛵', lat: 43.2965, lng: 5.3698, radius: 25 },
+  { key: 'bordeaux',   label: 'Bordeaux',   emoji: '🍷', lat: 44.8378, lng: -0.5792, radius: 20 },
+  { key: 'toulouse',   label: 'Toulouse',   emoji: '🚀', lat: 43.6047, lng: 1.4442, radius: 20 },
+  { key: 'nantes',     label: 'Nantes',     emoji: '🐘', lat: 47.2184, lng: -1.5536, radius: 20 },
+  { key: 'lille',      label: 'Lille',       emoji: '🧱', lat: 50.6292, lng: 3.0573, radius: 20 },
+  { key: 'nice',       label: 'Nice',       emoji: '🌴', lat: 43.7102, lng: 7.2620, radius: 25 },
+  { key: 'strasbourg', label: 'Strasbourg', emoji: '🥨', lat: 48.5734, lng: 7.7521, radius: 20 },
+  { key: 'rennes',     label: 'Rennes',     emoji: '🏰', lat: 48.1173, lng: -1.6778, radius: 20 },
+];
+
+/** Haversine distance in km between two lat/lng points */
+function haversineKm(lat1, lng1, lat2, lng2) {
+  const toRad = (d) => (d * Math.PI) / 180;
+  const R = 6371;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+/** Filter listings that fall within a metro area's radius */
+function listingsForMetro(listings, metro) {
+  return listings.filter((l) =>
+    haversineKm(l.lat, l.lng, metro.lat, metro.lng) <= metro.radius
+  );
+}
+
+/** Build available metros from the actual data (>= 3 listings) */
+function getAvailableMetros(listings) {
+  return METRO_AREAS
+    .map((m) => ({ ...m, count: listingsForMetro(listings, m).length }))
+    .filter((m) => m.count >= 3);
+}
 
 // ============================================================
 // API FETCH — with silent fallback to static JSON
@@ -12,7 +54,7 @@ import APARTMENTS_DB from './apartments.json';
 
 const API_BASE = import.meta.env.VITE_API_URL || '';
 
-async function fetchListings(count = 20) {
+async function fetchListings(count = 50) {
   if (API_BASE) {
     try {
       const resp = await fetch(`${API_BASE}/listings?limit=${count}&random=true`);
@@ -76,7 +118,9 @@ function getScoreEmoji(gap) {
 
 const initialState = {
   phase: 'menu',
+  allListings: [],
   apartments: [],
+  selectedMetro: null,
   currentRound: 0,
   timeRemaining: TIMER_SECONDS,
   playerGuess: '',
@@ -87,12 +131,20 @@ const initialState = {
 
 function gameReducer(state, action) {
   switch (action.type) {
+    case 'SHOW_CITY_SELECT':
+      return { ...initialState, phase: 'citySelect', allListings: action.listings };
     case 'START_GAME': {
-      const shuffled = shuffleArray(action.listings).slice(0, ROUNDS_PER_GAME);
+      let pool = state.allListings;
+      if (action.metro) {
+        pool = listingsForMetro(pool, action.metro);
+      }
+      const shuffled = shuffleArray(pool).slice(0, ROUNDS_PER_GAME);
       return {
         ...initialState,
+        allListings: state.allListings,
         phase: 'playing',
         apartments: shuffled,
+        selectedMetro: action.metro || null,
         currentRound: 0,
         timeRemaining: TIMER_SECONDS,
       };
@@ -148,7 +200,7 @@ function gameReducer(state, action) {
       };
     }
     case 'RESTART':
-      return { ...initialState };
+      return { ...initialState, phase: 'citySelect', allListings: state.allListings };
     default:
       return state;
   }
@@ -539,6 +591,66 @@ function GameOverScreen({ roundHistory, totalScore, onRestart }) {
   );
 }
 
+function CitySelectScreen({ listings, onSelect }) {
+  const metros = getAvailableMetros(listings);
+
+  return (
+    <div className="flex flex-col items-center justify-center h-full overflow-y-auto p-6 animate-fadeIn">
+      <div className="w-full max-w-lg space-y-6">
+        <div className="text-center space-y-2">
+          <h2 className="text-2xl font-bold text-white">Choisissez votre terrain de jeu</h2>
+          <p className="text-gray-400 text-sm">Sélectionnez une métropole ou jouez dans toute la France</p>
+        </div>
+
+        {/* France entière */}
+        <button
+          onClick={() => onSelect(null)}
+          className="w-full bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-bold py-4 px-6 rounded-xl transition-all hover:scale-[1.02] flex items-center gap-4 shadow-lg shadow-emerald-500/20"
+        >
+          <div className="text-3xl">🇫🇷</div>
+          <div className="text-left flex-1">
+            <div className="text-lg">Toute la France</div>
+            <div className="text-emerald-200 text-sm font-normal">{listings.length} annonces disponibles</div>
+          </div>
+          <Map size={24} className="text-emerald-200" />
+        </button>
+
+        {/* Separator */}
+        <div className="flex items-center gap-3">
+          <div className="flex-1 h-px bg-gray-700" />
+          <span className="text-gray-500 text-sm">ou une métropole</span>
+          <div className="flex-1 h-px bg-gray-700" />
+        </div>
+
+        {/* Metro grid */}
+        <div className="grid grid-cols-2 gap-3">
+          {metros.map((metro) => (
+            <button
+              key={metro.key}
+              onClick={() => onSelect(metro)}
+              className="bg-gray-800/50 hover:bg-gray-800 border border-gray-700 hover:border-emerald-500/50 text-white py-3 px-4 rounded-xl transition-all hover:scale-[1.02] flex items-center gap-3 group"
+            >
+              <span className="text-2xl">{metro.emoji}</span>
+              <div className="text-left flex-1 min-w-0">
+                <div className="font-bold text-sm truncate group-hover:text-emerald-400 transition-colors">{metro.label}</div>
+                <div className="text-gray-500 text-xs">{metro.count} annonces</div>
+              </div>
+            </button>
+          ))}
+        </div>
+
+        {/* Back */}
+        <button
+          onClick={() => window.location.reload()}
+          className="w-full text-gray-500 hover:text-gray-300 text-sm py-2 transition-colors"
+        >
+          ← Retour à l'accueil
+        </button>
+      </div>
+    </div>
+  );
+}
+
 function WelcomeScreen({ onStart, loading }) {
   return (
     <div className="flex flex-col items-center justify-center h-full overflow-y-auto p-6 animate-fadeIn">
@@ -608,15 +720,20 @@ export default function JustePrixImmo() {
   const timerRef = useRef(null);
   const hasSubmittedRef = useRef(false);
 
-  // Start game: fetch listings from API then dispatch
-  const startGame = useCallback(async () => {
+  // Load listings then show city selection
+  const goToCitySelect = useCallback(async () => {
     setLoading(true);
     try {
-      const listings = await fetchListings(20);
-      dispatch({ type: 'START_GAME', listings });
+      const listings = await fetchListings(50);
+      dispatch({ type: 'SHOW_CITY_SELECT', listings });
     } finally {
       setLoading(false);
     }
+  }, []);
+
+  // Start game with optional metro filter
+  const startGame = useCallback((metro) => {
+    dispatch({ type: 'START_GAME', metro });
   }, []);
 
   // Timer management
@@ -650,7 +767,15 @@ export default function JustePrixImmo() {
   if (state.phase === 'menu') {
     return (
       <div className="h-full bg-gray-950 overflow-hidden">
-        <WelcomeScreen onStart={startGame} loading={loading} />
+        <WelcomeScreen onStart={goToCitySelect} loading={loading} />
+      </div>
+    );
+  }
+
+  if (state.phase === 'citySelect') {
+    return (
+      <div className="h-full bg-gray-950 overflow-hidden">
+        <CitySelectScreen listings={state.allListings} onSelect={startGame} />
       </div>
     );
   }

@@ -246,16 +246,23 @@ class PapScraper(HttpScraperMixin, AbstractScraper):
                 rooms = _extract_number(text)
 
         # -- City from title --
+        # h1 format: "Vente appartement 2 pièces 61 m² Bordeaux (33000)310.000 €"
+        # We extract the city name between the last "m²" and the zipcode "(XXXXX)"
         city = ""
         title_el = soup.select_one("h1, .item-title-content")
         if title_el:
             title_text = title_el.get_text(strip=True)
+            # Normalize non-breaking spaces and other unicode whitespace
+            title_text = re.sub(r"[\xa0\u202f\u2007\u2009]", " ", title_text)
+            # Match: everything after "m²" up to "(zipcode)" or price
             city_match = re.search(
-                r"([\w\s\-']+(?:\d+E)?)\s*\((\d+)\)",
+                r"m[²2]\s+([A-ZÀ-Ü][\w\s\-'']+?)(?:\d[\d\s.]*€|\s*\((\d{5})\))",
                 title_text,
             )
             if city_match:
-                city = f"{city_match.group(1).strip()} ({city_match.group(2)})"
+                city_name = city_match.group(1).strip()
+                zipcode = city_match.group(2)
+                city = f"{city_name} ({zipcode})" if zipcode else city_name
 
         # -- Images --
         images = self._extract_images(soup)

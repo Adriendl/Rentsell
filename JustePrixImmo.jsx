@@ -20,8 +20,8 @@ const METRO_AREAS = [
   { key: 'nantes',     label: 'Nantes',     emoji: '🐘', lat: 47.2184, lng: -1.5536, radius: 20 },
   { key: 'lille',      label: 'Lille',       emoji: '🧱', lat: 50.6292, lng: 3.0573, radius: 20 },
   { key: 'nice',       label: 'Nice',       emoji: '🌴', lat: 43.7102, lng: 7.2620, radius: 25 },
+  { key: 'montpellier',label: 'Montpellier',emoji: '☀️', lat: 43.6108, lng: 3.8767, radius: 20 },
   { key: 'strasbourg', label: 'Strasbourg', emoji: '🥨', lat: 48.5734, lng: 7.7521, radius: 20 },
-  { key: 'rennes',     label: 'Rennes',     emoji: '🏰', lat: 48.1173, lng: -1.6778, radius: 20 },
 ];
 
 /** Haversine distance in km between two lat/lng points */

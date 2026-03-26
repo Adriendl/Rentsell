@@ -34,37 +34,54 @@ CDN_BASE = "https://laforetbusiness.laforet-intranet.com"
 # This list can be extended over time.
 CITY_AGENCIES: dict[str, list[str]] = {
     "paris": [
-        "paris6", "paris-batignolles", "paris-convention",
-        "paris-marais", "paris-republique", "paris-daumesnil",
-        "paris-nation", "paris-auteuil", "boulogne-nord",
+        "paris6", "paris4-marais", "paris11nation", "paris12daumesnil",
+        "paris13-jeannedarc", "paris14alesia", "paris15convention",
+        "paris17batignolles", "paris18julesjoffrin", "paris20",
+        "boulogne-nord", "boulogne-centre", "boulogne-sud",
+        "levallois", "neuillysurseine", "montreuil",
+        "issy-les-moulineaux-mairie", "colombes", "ivrysurseine",
+        "vincennes-mairie", "clichy", "nanterre", "rueilmalmaison",
+        "puteaux", "charenton-le-pont",
     ],
     "lyon": [
-        "lyon2-bellecour", "lyon3", "lyon6", "lyon7",
-        "lyon8", "villeurbanne",
+        "lyon2", "lyon-7", "lyon4", "lyon8",
+        "lyon3-montchat", "lyon3-partdieu",
+        "caluire", "oullins", "villeurbanne-republique",
     ],
     "marseille": [
-        "marseille-castellane", "marseille-13008",
-        "marseille-saint-barnabe", "aubagne",
+        "marseillerepublique", "marseille5avenues", "marseille6",
+        "marseille7", "marseille8", "marseille9", "marseille11",
+        "marseille12stbarnabe", "marseille-13",
+        "aubagne", "aixenprovence", "aix-en-provence-gare",
     ],
     "bordeaux": [
-        "bordeaux-saint-seurin", "bordeaux-cauderan",
-        "bordeaux-chartrons", "pessac",
+        "bordeaux-saint-seurin", "bordeaux-saint-augustin",
+        "bordeauxcauderan", "bordeauxcapucins",
+        "pessac", "merignac", "talence", "gradignan",
     ],
     "toulouse": [
-        "toulouse-capitole", "toulouse-minimes",
-        "toulouse-rangueil", "blagnac",
+        "toulouse-bonnefoy", "toulouse-croix-daurade",
+        "blagnac", "colomiers", "balma", "tournefeuille",
     ],
     "nantes": [
         "nantes", "reze",
     ],
     "lille": [
-        "lille", "lille-fives", "villeneuve-d-ascq",
+        "lille", "villeneuve-dascq",
     ],
     "nice": [
-        "nice", "nice-ouest", "antibes",
+        "nice-centre", "nice-gambetta", "nice-port",
+        "nice-madeleine", "nice-fabron",
+        "antibes", "cagnes-sur-mer", "cannes",
+        "cannes-croisette", "valbonne",
     ],
     "strasbourg": [
-        "strasbourg", "strasbourg-neudorf", "illkirch",
+        "strasbourg", "strasbourg-orangerie",
+        "schiltigheim", "illkirch", "lingolsheim",
+    ],
+    "montpellier": [
+        "montpelliersud", "montpellierportmarianne",
+        "montpellier-nord-centre", "castelnau",
     ],
 }
 

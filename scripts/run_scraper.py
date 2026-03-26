@@ -1,4 +1,4 @@
-"""Manual scraper runner CLI."""
+"""Manual scraper runner CLI — scrapes, validates, and inserts into DB."""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ from app.scrapers.laforet import LaforetScraper
 from app.scrapers.pap import PapScraper
 from app.pipeline.normalizer import normalize_listing, geocode
 from app.pipeline.validator import validate_listing
-from app.pipeline.deduplicator import compute_dedup_hash
+from app.pipeline.deduplicator import compute_dedup_hash, upsert_listing
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -32,14 +32,24 @@ SCRAPERS = {
 }
 
 
-async def run(source: str, cities: list[str], max_pages: int):
+async def run(source: str, cities: list[str], max_pages: int, dry_run: bool = False):
     scraper_cls = SCRAPERS.get(source)
     if not scraper_cls:
         logger.error("Unknown source: %s (available: %s)", source, list(SCRAPERS))
         return
 
+    # Init DB if not dry-run
+    db_session_maker = None
+    if not dry_run:
+        from app.database import Base, init_engine
+        import app.database as db
+        init_engine()
+        async with db.engine.begin() as conn:
+            await conn.run_sync(Base.metadata.create_all)
+        db_session_maker = db.async_session_maker
+
     scraper = scraper_cls()
-    total_found, valid, invalid = 0, 0, 0
+    total_found, valid, invalid, inserted, updated = 0, 0, 0, 0, 0
 
     try:
         for city in cities:
@@ -62,13 +72,18 @@ async def run(source: str, cities: list[str], max_pages: int):
                     coords = await geocode(address, city_name)
                     if coords:
                         data["lat"], data["lng"] = coords
-                        logger.info("  📍 Geocoded %s → %.4f, %.4f", city_name, coords[0], coords[1])
                     else:
                         logger.warning("  ⚠ Could not geocode: %s", city_name)
 
                 is_valid, reasons = validate_listing(data)
-                if is_valid:
-                    valid += 1
+                if not is_valid:
+                    invalid += 1
+                    logger.warning("  ✗ Rejected: %s", ", ".join(reasons))
+                    continue
+
+                valid += 1
+
+                if dry_run:
                     dedup = compute_dedup_hash(
                         data["city_slug"], data["surface"],
                         data.get("rooms"), data["price"],
@@ -79,15 +94,38 @@ async def run(source: str, cities: list[str], max_pages: int):
                         len(data.get("images", [])), dedup[:12],
                     )
                 else:
-                    invalid += 1
-                    logger.warning("  ✗ Rejected: %s", ", ".join(reasons))
+                    # Insert/update in database
+                    async with db_session_maker() as session:
+                        listing = await upsert_listing(session, data)
+                        await session.commit()
+                        is_new = listing.first_seen_at == listing.last_seen_at
+                        if is_new:
+                            inserted += 1
+                            logger.info(
+                                "  ✓ NEW %s — %d m² — %d € — %d imgs",
+                                data["city"], data["surface"], data["price"],
+                                len(data.get("images", [])),
+                            )
+                        else:
+                            updated += 1
+                            logger.info(
+                                "  ↻ UPD %s — %d m² — %d €",
+                                data["city"], data["surface"], data["price"],
+                            )
+
     finally:
         await scraper.close()
 
-    logger.info(
-        "Done: %d found, %d valid, %d rejected",
-        total_found, valid, invalid,
-    )
+    if dry_run:
+        logger.info(
+            "Done (dry-run): %d found, %d valid, %d rejected",
+            total_found, valid, invalid,
+        )
+    else:
+        logger.info(
+            "Done: %d found, %d valid, %d rejected — %d inserted, %d updated",
+            total_found, valid, invalid, inserted, updated,
+        )
 
 
 def main():
@@ -96,10 +134,12 @@ def main():
     parser.add_argument("--cities", default=",".join(DEFAULT_CITIES),
                         help="Comma-separated city slugs")
     parser.add_argument("--max-pages", type=int, default=3)
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Validate only, do not insert into DB")
     args = parser.parse_args()
 
     cities = [c.strip() for c in args.cities.split(",")]
-    asyncio.run(run(args.source, cities, args.max_pages))
+    asyncio.run(run(args.source, cities, args.max_pages, args.dry_run))
 
 
 if __name__ == "__main__":

@@ -26,6 +26,7 @@ from app.scrapers.http_scraper import HttpScraperMixin
 logger = logging.getLogger(__name__)
 
 BASE_URL = "https://www.laforet.com"
+CDN_BASE = "https://laforetbusiness.laforet-intranet.com"
 
 # ── Known agency slugs per city ──────────────────────────────────────
 # Each agency's page lists the properties they manage (statically rendered).
@@ -54,7 +55,7 @@ CITY_AGENCIES: dict[str, list[str]] = {
         "toulouse-rangueil", "blagnac",
     ],
     "nantes": [
-        "nantes-centre", "nantes-erdre", "saint-herblain",
+        "nantes", "reze",
     ],
     "lille": [
         "lille", "lille-fives", "villeneuve-d-ascq",
@@ -266,11 +267,7 @@ class LaforetScraper(HttpScraperMixin, AbstractScraper):
                 continue
             if src and src not in seen:
                 seen.add(src)
-                full_src = urljoin(BASE_URL, src)
-                # Request larger size
-                full_src = re.sub(r"[?&]w=\d+", "?w=800", full_src)
-                full_src = re.sub(r"[?&]h=\d+", "&h=600", full_src)
-                urls.append(full_src)
+                urls.append(self._glide_to_cdn(src))
         return urls
 
     def _extract_page_images(self, soup: BeautifulSoup) -> list[str]:
@@ -284,10 +281,7 @@ class LaforetScraper(HttpScraperMixin, AbstractScraper):
                 continue
             if src and src not in seen:
                 seen.add(src)
-                full_src = urljoin(BASE_URL, src)
-                full_src = re.sub(r"[?&]w=\d+", "?w=800", full_src)
-                full_src = re.sub(r"[?&]h=\d+", "&h=600", full_src)
-                urls.append(full_src)
+                urls.append(self._glide_to_cdn(src))
 
         # Fallback: JSON-LD
         if not urls:
@@ -316,6 +310,18 @@ class LaforetScraper(HttpScraperMixin, AbstractScraper):
     # ------------------------------------------------------------------
     # Coordinates extraction
     # ------------------------------------------------------------------
+
+    @staticmethod
+    def _glide_to_cdn(src: str) -> str:
+        """Convert a /glide/... path to the public CDN URL (no auth/hotlink issue)."""
+        # /glide/office6/laforet_.../52365738a.jpg?w=800&...
+        # → https://laforetbusiness.laforet-intranet.com/office6/laforet_.../52365738a.jpg
+        path = src.split("?")[0]  # strip query params
+        if path.startswith("/glide/"):
+            path = path[len("/glide/"):]
+        elif "/glide/" in path:
+            path = path.split("/glide/", 1)[1]
+        return f"{CDN_BASE}/{path}"
 
     def _extract_coords(self, soup: BeautifulSoup) -> tuple[float | None, float | None]:
         for el in soup.select("[data-lat][data-lng], [data-latitude][data-longitude]"):

@@ -2,9 +2,28 @@ import React, { useState, useReducer, useRef, useEffect, useCallback } from 'rea
 import {
   ChevronLeft, ChevronRight, Timer, Home, MapPin, Trophy,
   Play, Maximize, RotateCcw, Target, Clock, TrendingUp,
-  TrendingDown, Award, ArrowRight, Info, ExternalLink
+  TrendingDown, Award, ArrowRight, Info, ExternalLink, Loader2
 } from 'lucide-react';
 import APARTMENTS_DB from './apartments.json';
+
+// ============================================================
+// API FETCH — with silent fallback to static JSON
+// ============================================================
+
+const API_BASE = import.meta.env.VITE_API_URL || '';
+
+async function fetchListings(count = 20) {
+  if (API_BASE) {
+    try {
+      const resp = await fetch(`${API_BASE}/listings?limit=${count}&random=true`);
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.length > 0) return data;
+      }
+    } catch (_) { /* fallback below */ }
+  }
+  return [...APARTMENTS_DB];
+}
 
 // ============================================================
 // HELPERS
@@ -69,7 +88,7 @@ const initialState = {
 function gameReducer(state, action) {
   switch (action.type) {
     case 'START_GAME': {
-      const shuffled = shuffleArray(APARTMENTS_DB).slice(0, ROUNDS_PER_GAME);
+      const shuffled = shuffleArray(action.listings).slice(0, ROUNDS_PER_GAME);
       return {
         ...initialState,
         phase: 'playing',
@@ -520,7 +539,7 @@ function GameOverScreen({ roundHistory, totalScore, onRestart }) {
   );
 }
 
-function WelcomeScreen({ onStart }) {
+function WelcomeScreen({ onStart, loading }) {
   return (
     <div className="flex flex-col items-center justify-center h-full overflow-y-auto p-6 animate-fadeIn">
       <div className="w-full max-w-lg space-y-8 text-center">
@@ -559,10 +578,20 @@ function WelcomeScreen({ onStart }) {
 
         <button
           onClick={onStart}
-          className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-4 px-8 rounded-xl transition-all hover:scale-105 flex items-center justify-center gap-3 text-xl"
+          disabled={loading}
+          className="w-full bg-emerald-500 hover:bg-emerald-600 disabled:bg-emerald-800 disabled:cursor-wait text-white font-bold py-4 px-8 rounded-xl transition-all hover:scale-105 disabled:hover:scale-100 flex items-center justify-center gap-3 text-xl"
         >
-          <Play size={24} />
-          Jouer
+          {loading ? (
+            <>
+              <Loader2 size={24} className="animate-spin" />
+              Chargement des annonces...
+            </>
+          ) : (
+            <>
+              <Play size={24} />
+              Jouer
+            </>
+          )}
         </button>
       </div>
     </div>
@@ -575,8 +604,20 @@ function WelcomeScreen({ onStart }) {
 
 export default function JustePrixImmo() {
   const [state, dispatch] = useReducer(gameReducer, initialState);
+  const [loading, setLoading] = useState(false);
   const timerRef = useRef(null);
   const hasSubmittedRef = useRef(false);
+
+  // Start game: fetch listings from API then dispatch
+  const startGame = useCallback(async () => {
+    setLoading(true);
+    try {
+      const listings = await fetchListings(20);
+      dispatch({ type: 'START_GAME', listings });
+    } finally {
+      setLoading(false);
+    }
+  }, []);
 
   // Timer management
   useEffect(() => {
@@ -609,7 +650,7 @@ export default function JustePrixImmo() {
   if (state.phase === 'menu') {
     return (
       <div className="h-full bg-gray-950 overflow-hidden">
-        <WelcomeScreen onStart={() => dispatch({ type: 'START_GAME' })} />
+        <WelcomeScreen onStart={startGame} loading={loading} />
       </div>
     );
   }

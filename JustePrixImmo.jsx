@@ -1,9 +1,9 @@
 import React, { useState, useReducer, useRef, useEffect, useCallback } from 'react';
 import {
-  ChevronLeft, ChevronRight, Timer, Home, MapPin, Trophy,
+  ChevronLeft, ChevronRight, ChevronDown, Timer, Home, MapPin, Trophy,
   Play, Maximize, RotateCcw, Target, Clock, TrendingUp,
   TrendingDown, Award, ArrowRight, Info, ExternalLink, Loader2,
-  Map, Building2
+  Map, Building2, Camera
 } from 'lucide-react';
 import APARTMENTS_DB from './apartments.json';
 
@@ -651,7 +651,147 @@ function CitySelectScreen({ listings, onSelect }) {
   );
 }
 
+// ============================================================
+// TUTORIAL CAROUSEL
+// ============================================================
+const TUTORIAL_SLIDES = [
+  {
+    icon: Camera,
+    title: 'Les photos',
+    description: 'Parcourez les photos pour évaluer le standing et l\'état du bien.',
+    color: 'emerald',
+  },
+  {
+    icon: MapPin,
+    title: 'La localisation',
+    description: 'La carte montre le quartier — le prix varie énormément selon l\'emplacement !',
+    color: 'emerald',
+  },
+  {
+    icon: Maximize,
+    title: 'Surface & pièces',
+    description: 'Scrollez vers le bas pour voir la surface et le nombre de pièces !',
+    color: 'emerald',
+    hasBadges: true,
+  },
+];
+
+function TutorialCarousel({ onAllViewed }) {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [viewedSlides, setViewedSlides] = useState(new Set([0]));
+  const calledRef = useRef(false);
+  const touchRef = useRef({ startX: 0, startY: 0 });
+
+  const goToSlide = useCallback((idx) => {
+    const clamped = Math.max(0, Math.min(idx, TUTORIAL_SLIDES.length - 1));
+    setCurrentSlide(clamped);
+    setViewedSlides((prev) => {
+      const next = new Set(prev);
+      next.add(clamped);
+      if (next.size === TUTORIAL_SLIDES.length && !calledRef.current) {
+        calledRef.current = true;
+        onAllViewed();
+      }
+      return next;
+    });
+  }, [onAllViewed]);
+
+  const prev = () => goToSlide(currentSlide - 1);
+  const next = () => goToSlide(currentSlide + 1);
+
+  const onTouchStart = (e) => {
+    touchRef.current.startX = e.touches[0].clientX;
+    touchRef.current.startY = e.touches[0].clientY;
+  };
+
+  const onTouchEnd = (e) => {
+    const dx = e.changedTouches[0].clientX - touchRef.current.startX;
+    const dy = e.changedTouches[0].clientY - touchRef.current.startY;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+      dx < 0 ? next() : prev();
+    }
+  };
+
+  const slide = TUTORIAL_SLIDES[currentSlide];
+  const Icon = slide.icon;
+
+  return (
+    <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700 space-y-4">
+      <h3 className="text-white font-bold flex items-center gap-2 justify-center">
+        <Info size={18} className="text-emerald-400" />
+        Comment jouer
+      </h3>
+
+      <div
+        className="relative min-h-[200px] flex items-center touch-pan-y"
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+      >
+        {/* Left arrow */}
+        <button
+          onClick={prev}
+          disabled={currentSlide === 0}
+          className="absolute left-0 z-10 p-1 text-white opacity-70 hover:opacity-100 disabled:opacity-20 transition-opacity"
+        >
+          <ChevronLeft size={24} />
+        </button>
+
+        {/* Slide content */}
+        <div className="flex-1 flex flex-col items-center text-center px-8 space-y-4 animate-fadeIn" key={currentSlide}>
+          <div className="w-20 h-20 rounded-full bg-emerald-500/20 flex items-center justify-center border border-emerald-500/30">
+            <Icon size={40} className="text-emerald-400" />
+          </div>
+
+          <h4 className="text-white font-bold text-lg">{slide.title}</h4>
+          <p className="text-gray-300 text-sm leading-relaxed">{slide.description}</p>
+
+          {slide.hasBadges && (
+            <div className="flex items-center gap-3 mt-1">
+              <span className="bg-emerald-500/20 text-emerald-400 px-3 py-1.5 rounded-lg border border-emerald-500/30 text-sm font-bold">
+                72 m²
+              </span>
+              <span className="bg-emerald-500/20 text-emerald-400 px-3 py-1.5 rounded-lg border border-emerald-500/30 text-sm font-bold">
+                3 pièces
+              </span>
+              <ChevronDown size={20} className="text-emerald-400 animate-bounce" />
+            </div>
+          )}
+        </div>
+
+        {/* Right arrow */}
+        <button
+          onClick={next}
+          disabled={currentSlide === TUTORIAL_SLIDES.length - 1}
+          className="absolute right-0 z-10 p-1 text-white opacity-70 hover:opacity-100 disabled:opacity-20 transition-opacity"
+        >
+          <ChevronRight size={24} />
+        </button>
+      </div>
+
+      {/* Dot indicators */}
+      <div className="flex gap-2 justify-center">
+        {TUTORIAL_SLIDES.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => goToSlide(i)}
+            className={`h-2 rounded-full transition-all duration-300 ${
+              i === currentSlide
+                ? 'bg-emerald-400 w-6'
+                : viewedSlides.has(i)
+                  ? 'bg-emerald-400/50 w-2'
+                  : 'bg-white/30 w-2'
+            }`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function WelcomeScreen({ onStart, loading }) {
+  const [tutorialComplete, setTutorialComplete] = useState(false);
+  const canPlay = tutorialComplete && !loading;
+
   return (
     <div className="flex flex-col items-center justify-center h-full overflow-y-auto p-6 animate-fadeIn">
       <div className="w-full max-w-lg space-y-8 text-center">
@@ -663,41 +803,24 @@ function WelcomeScreen({ onStart, loading }) {
           <p className="text-gray-400 text-lg">Devinez le prix des appartements en France</p>
         </div>
 
-        <div className="bg-gray-800/50 rounded-2xl p-6 text-left space-y-3 border border-gray-700">
-          <h3 className="text-white font-bold flex items-center gap-2">
-            <Info size={18} className="text-emerald-400" />
-            Comment jouer
-          </h3>
-          <ul className="space-y-2 text-gray-300 text-sm">
-            <li className="flex items-start gap-2">
-              <span className="text-emerald-400 font-bold mt-0.5">1.</span>
-              Observez les photos, la carte et la surface de l'appartement
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-emerald-400 font-bold mt-0.5">2.</span>
-              Estimez son prix de vente en 60 secondes
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-emerald-400 font-bold mt-0.5">3.</span>
-              Plus vous êtes précis et rapide, plus vous gagnez de points
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-emerald-400 font-bold mt-0.5">4.</span>
-              {ROUNDS_PER_GAME} appartements, jusqu'à 1 200 points par round
-            </li>
-          </ul>
-        </div>
+        <TutorialCarousel onAllViewed={() => setTutorialComplete(true)} />
 
         <button
           onClick={onStart}
-          disabled={loading}
-          className="w-full bg-emerald-500 hover:bg-emerald-600 disabled:bg-emerald-800 disabled:cursor-wait text-white font-bold py-4 px-8 rounded-xl transition-all hover:scale-105 disabled:hover:scale-100 flex items-center justify-center gap-3 text-xl"
+          disabled={!canPlay}
+          className={`w-full text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-3 text-xl ${
+            canPlay
+              ? 'bg-emerald-500 hover:bg-emerald-600 hover:scale-105'
+              : 'bg-gray-700 cursor-not-allowed'
+          }`}
         >
           {loading ? (
             <>
               <Loader2 size={24} className="animate-spin" />
               Chargement des annonces...
             </>
+          ) : !tutorialComplete ? (
+            <span className="text-gray-400 text-base">Parcourez le tutoriel pour commencer</span>
           ) : (
             <>
               <Play size={24} />

@@ -1,0 +1,48 @@
+name: Refresh Listings
+
+on:
+  schedule:
+    # Every day at 6:00 and 18:00 UTC
+    - cron: '0 6 * * *'
+    - cron: '0 18 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install backend dependencies
+        run: |
+          cd backend
+          pip install httpx beautifulsoup4 python-slugify tenacity pydantic-settings
+
+      - name: Run export script
+        run: python scripts/export_listings.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet apartments.json && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push updated listings
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          LISTING_COUNT=$(python -c "import json; print(len(json.load(open('apartments.json'))))")
+          git add apartments.json
+          git commit -m "data: refresh apartments.json (${LISTING_COUNT} listings)
+
+          Automated scrape via GitHub Actions.
+
+          Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          git push

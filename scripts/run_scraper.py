@@ -14,7 +14,7 @@ sys.path.insert(0, str(backend_dir))
 
 from app.scrapers.laforet import LaforetScraper
 from app.scrapers.pap import PapScraper
-from app.pipeline.normalizer import normalize_listing
+from app.pipeline.normalizer import normalize_listing, geocode
 from app.pipeline.validator import validate_listing
 from app.pipeline.deduplicator import compute_dedup_hash
 
@@ -48,11 +48,36 @@ async def run(source: str, cities: list[str], max_pages: int):
             total_found += len(raw_listings)
 
             for raw in raw_listings:
-                data = normalize_listing(raw.__dict__)
+                # Convert RawListing to dict and map images_urls → images
+                raw_dict = raw.__dict__.copy()
+                raw_dict["images"] = raw_dict.pop("images_urls", [])
+
+                # Normalize
+                data = normalize_listing(raw_dict)
+
+                # Geocode if lat/lng missing
+                if data.get("lat") is None or data.get("lng") is None:
+                    city_name = data.get("city", "")
+                    address = data.get("address") or city_name
+                    coords = await geocode(address, city_name)
+                    if coords:
+                        data["lat"], data["lng"] = coords
+                        logger.info("  📍 Geocoded %s → %.4f, %.4f", city_name, coords[0], coords[1])
+                    else:
+                        logger.warning("  ⚠ Could not geocode: %s", city_name)
+
                 is_valid, reasons = validate_listing(data)
                 if is_valid:
                     valid += 1
-                    logger.info("  ✓ %s — %s m² — %s €", data["city"], data["surface"], data["price"])
+                    dedup = compute_dedup_hash(
+                        data["city_slug"], data["surface"],
+                        data.get("rooms"), data["price"],
+                    )
+                    logger.info(
+                        "  ✓ %s — %d m² — %d € — %d imgs — hash=%s",
+                        data["city"], data["surface"], data["price"],
+                        len(data.get("images", [])), dedup[:12],
+                    )
                 else:
                     invalid += 1
                     logger.warning("  ✗ Rejected: %s", ", ".join(reasons))

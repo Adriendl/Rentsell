@@ -2,6 +2,9 @@
 
 This script is designed to run in CI (GitHub Actions) to keep the static
 JSON file up-to-date for the GitHub Pages frontend.
+
+Stale listings (no longer online) are automatically purged to guarantee
+that photos and source links remain valid for players.
 """
 
 from __future__ import annotations
@@ -9,8 +12,11 @@ from __future__ import annotations
 import asyncio
 import json
 import logging
+import random
 import sys
 from pathlib import Path
+
+import httpx
 
 backend_dir = Path(__file__).resolve().parent.parent / "backend"
 sys.path.insert(0, str(backend_dir))
@@ -22,6 +28,12 @@ from app.pipeline.validator import validate_listing
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
+
+USER_AGENTS = [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+]
 
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "apartments.json"
 
@@ -76,6 +88,86 @@ async def _process_raw_listings(raw_listings, all_listings, seen_keys):
     return count
 
 
+async def _check_url_alive(client: httpx.AsyncClient, url: str) -> bool:
+    """Return True if URL responds with 2xx (HEAD then GET fallback)."""
+    try:
+        r = await client.head(url, follow_redirects=True, timeout=10)
+        if r.status_code < 400:
+            return True
+        # Some servers reject HEAD — retry with GET
+        r = await client.get(url, follow_redirects=True, timeout=10)
+        return r.status_code < 400
+    except Exception:
+        return False
+
+
+async def _verify_stale_listings(
+    candidates: list[dict],
+    all_listings: list[dict],
+) -> tuple[int, int]:
+    """Check that source URL and first image are still reachable.
+
+    Returns (kept, dropped) counts.
+    """
+    kept = 0
+    dropped = 0
+
+    async with httpx.AsyncClient(
+        headers={
+            "User-Agent": random.choice(USER_AGENTS),
+            "Accept-Language": "fr-FR,fr;q=0.9",
+        },
+    ) as client:
+        for listing in candidates:
+            source_url = listing.get("source")
+            images = listing.get("images", [])
+            listing_label = (
+                f"{listing.get('city', '?')} — "
+                f"{listing.get('surface', '?')}m² — "
+                f"{listing.get('price', '?')}€"
+            )
+
+            # 1. Check source URL (the listing page)
+            source_ok = True
+            if source_url:
+                source_ok = await _check_url_alive(client, source_url)
+                if not source_ok:
+                    logger.info("  🗑  %s — annonce hors ligne", listing_label)
+                    dropped += 1
+                    continue
+
+            # 2. Check first image is still reachable
+            image_ok = True
+            if images:
+                image_ok = await _check_url_alive(client, images[0])
+                if not image_ok:
+                    logger.info(
+                        "  🗑  %s — photo principale cassée", listing_label
+                    )
+                    dropped += 1
+                    continue
+
+            # 3. If no source URL and no images — drop (unusable)
+            if not source_url and not images:
+                logger.info("  🗑  %s — ni lien ni photo", listing_label)
+                dropped += 1
+                continue
+
+            # All checks passed — keep
+            logger.info("  ✅ %s — encore en ligne", listing_label)
+            all_listings.append(listing)
+            kept += 1
+
+            # Polite delay between checks
+            await asyncio.sleep(0.3)
+
+    logger.info(
+        "═══ Vérification terminée: %d conservées, %d supprimées ═══",
+        kept, dropped,
+    )
+    return kept, dropped
+
+
 async def scrape_and_export():
     all_listings: list[dict] = []
     seen_keys: set[str] = set()
@@ -120,7 +212,7 @@ async def scrape_and_export():
     pap_count = len(all_listings) - laforet_count
     logger.info("═══ PAP total: %d listings ═══\n", pap_count)
 
-    # ── Merge with existing data ─────────────────────────────────────
+    # ── Validate existing listings not found in this scrape ──────────
     existing: list[dict] = []
     if OUTPUT_PATH.exists():
         try:
@@ -128,18 +220,25 @@ async def scrape_and_export():
         except (json.JSONDecodeError, ValueError):
             pass
 
-    # Keep existing listings not found in new scrape
     new_ids = {str(l["id"]) for l in all_listings}
+    stale_candidates = [
+        old for old in existing
+        if str(old.get("id", "")) not in new_ids
+    ]
+
     kept = 0
-    for old in existing:
-        if str(old.get("id", "")) not in new_ids:
-            all_listings.append(old)
-            kept += 1
+    dropped = 0
 
-    if kept:
-        logger.info("Kept %d existing listings not found in this scrape", kept)
+    if stale_candidates:
+        logger.info(
+            "═══ Vérification de %d annonces non re-scrapées ═══",
+            len(stale_candidates),
+        )
+        kept, dropped = await _verify_stale_listings(
+            stale_candidates, all_listings
+        )
 
-    # Sort by city for readability
+    # ── Sort and write ──────────────────────────────────────────────
     all_listings.sort(key=lambda x: (x.get("city", ""), x.get("price", 0)))
 
     OUTPUT_PATH.write_text(
@@ -148,8 +247,10 @@ async def scrape_and_export():
     )
 
     logger.info(
-        "✅ Exported %d listings to %s (Laforêt: %d, PAP: %d, existing: %d)",
-        len(all_listings), OUTPUT_PATH.name, laforet_count, pap_count, kept,
+        "✅ Exported %d listings to %s "
+        "(Laforêt: %d, PAP: %d, kept: %d, dropped: %d)",
+        len(all_listings), OUTPUT_PATH.name,
+        laforet_count, pap_count, kept, dropped,
     )
 
 

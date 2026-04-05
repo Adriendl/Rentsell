@@ -2367,24 +2367,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-sud/acheter/boulogne-billancourt/appartement-3-pieces-52480139"
   },
   {
-    "id": "21965333",
-    "city": "Boulogne-Billancourt (92100)",
-    "lat": 48.838234,
-    "lng": 2.236147,
-    "surface": 42,
-    "rooms": 2,
-    "price": 409999,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/2/1/9/6/5/3/3/3/21965333a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/2/1/9/6/5/3/3/3/21965333b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/2/1/9/6/5/3/3/3/21965333c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/2/1/9/6/5/3/3/3/21965333d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/2/1/9/6/5/3/3/3/21965333e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/2/1/9/6/5/3/3/3/21965333f.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/boulogne-centre/acheter/boulogne-billancourt/appartement-2-pieces-21965333"
-  },
-  {
     "id": "52455765",
     "city": "Boulogne-Billancourt (92100)",
     "lat": 48.838234,
@@ -6654,23 +6636,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/ivrysurseine/acheter/ivry-sur-seine/appartement-2-pieces-52576374"
   },
   {
-    "id": "52486400",
-    "city": "Ivry-sur-Seine (94200)",
-    "lat": 48.818319,
-    "lng": 2.399785,
-    "surface": 52,
-    "rooms": 2,
-    "price": 229000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400e.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/ivrysurseine/acheter/ivry-sur-seine/appartement-2-pieces-52486400"
-  },
-  {
     "id": "52550690",
     "city": "Ivry-sur-Seine (94200)",
     "lat": 48.818319,
@@ -6688,6 +6653,23 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/5/5/0/6/9/0/52550690g.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/ivrysurseine/acheter/ivry-sur-seine/appartement-2-pieces-52550690"
+  },
+  {
+    "id": "52486400",
+    "city": "Ivry-sur-Seine (94200)",
+    "lat": 48.818319,
+    "lng": 2.399785,
+    "surface": 52,
+    "rooms": 2,
+    "price": 229000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ivrysurseine/catalog/images/pr_p/5/2/4/8/6/4/0/0/52486400e.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/ivrysurseine/acheter/ivry-sur-seine/appartement-2-pieces-52486400"
   },
   {
     "id": "52424138",
@@ -15481,8 +15463,8 @@
   {
     "id": "52595027",
     "city": "Paris 05 (75005)",
-    "lat": 48.845339,
-    "lng": 2.35076,
+    "lat": 48.84397,
+    "lng": 2.347452,
     "surface": 28,
     "rooms": 2,
     "price": 360000,
@@ -16343,6 +16325,34 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/5/9/6/5/3/8/52596538m.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/paris11bastille/acheter/paris-12/appartement-3-pieces-52596538"
+  },
+  {
+    "id": "22579412",
+    "city": "Paris 12 (75012)",
+    "lat": 48.846188,
+    "lng": 2.398846,
+    "surface": 93,
+    "rooms": 6,
+    "price": 1027000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412m.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412n.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412o.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/5/7/9/4/1/2/22579412p.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris13-jeannedarc/acheter/paris-12/appartement-6-pieces-22579412"
   },
   {
     "id": "52323423",

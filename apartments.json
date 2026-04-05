@@ -7732,6 +7732,21 @@
     "source": "https://www.laforet.com/agence-immobiliere/neuillysurseine/acheter/louveciennes/appartement-5-pieces-52547090"
   },
   {
+    "id": "52603129",
+    "city": "Lyon 01 (69001)",
+    "lat": 45.758,
+    "lng": 4.835,
+    "surface": 53,
+    "rooms": 3,
+    "price": 195000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/0/3/1/2/9/52603129a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/0/3/1/2/9/52603129b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/0/3/1/2/9/52603129c.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/lyon4/acheter/lyon-01/appartement-3-pieces-52603129"
+  },
+  {
     "id": "52511458",
     "city": "Lyon 01 (69001)",
     "lat": 45.758,
@@ -15463,8 +15478,8 @@
   {
     "id": "52595027",
     "city": "Paris 05 (75005)",
-    "lat": 48.84397,
-    "lng": 2.347452,
+    "lat": 48.845339,
+    "lng": 2.35076,
     "surface": 28,
     "rooms": 2,
     "price": 360000,
@@ -15487,8 +15502,8 @@
   {
     "id": "52595010",
     "city": "Paris 05 (75005)",
-    "lat": 48.84397,
-    "lng": 2.347452,
+    "lat": 48.845339,
+    "lng": 2.35076,
     "surface": 28,
     "rooms": 1,
     "price": 360000,
@@ -15903,7 +15918,7 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris11voltaire/acheter/paris-11/appartement-2-pieces-52479519"
   },
   {
-    "id": "52592150",
+    "id": "52603196",
     "city": "Paris 11 (75011)",
     "lat": 48.867962,
     "lng": 2.371268,
@@ -15911,16 +15926,16 @@
     "rooms": 1,
     "price": 429000,
     "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/5/9/2/1/5/0/52592150a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/5/9/2/1/5/0/52592150b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/5/9/2/1/5/0/52592150c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/5/9/2/1/5/0/52592150d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/5/9/2/1/5/0/52592150e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/5/9/2/1/5/0/52592150f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/5/9/2/1/5/0/52592150g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/5/9/2/1/5/0/52592150h.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/6/0/3/1/9/6/52603196a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/6/0/3/1/9/6/52603196b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/6/0/3/1/9/6/52603196c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/6/0/3/1/9/6/52603196d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/6/0/3/1/9/6/52603196e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/6/0/3/1/9/6/52603196f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/6/0/3/1/9/6/52603196g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/6/0/3/1/9/6/52603196h.jpg"
     ],
-    "source": "https://www.laforet.com/agence-immobiliere/paris12daumesnil/acheter/paris-11/appartement-1-piece-52592150"
+    "source": "https://www.laforet.com/agence-immobiliere/paris12daumesnil/acheter/paris-11/appartement-1-piece-52603196"
   },
   {
     "id": "52596405",
@@ -19071,26 +19086,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/2/1/9/8/2/7/52219827g.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/rillieux-la-pape/acheter/rillieux-la-pape/appartement-5-pieces-52219827"
-  },
-  {
-    "id": "52548610",
-    "city": "Roubaix (59100)",
-    "lat": 50.687296,
-    "lng": 3.189921,
-    "surface": 48,
-    "rooms": 2,
-    "price": 109900,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_xnrcvkwdbmpz/catalog/images/pr_p/5/2/5/4/8/6/1/0/52548610a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_xnrcvkwdbmpz/catalog/images/pr_p/5/2/5/4/8/6/1/0/52548610b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_xnrcvkwdbmpz/catalog/images/pr_p/5/2/5/4/8/6/1/0/52548610c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_xnrcvkwdbmpz/catalog/images/pr_p/5/2/5/4/8/6/1/0/52548610d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_xnrcvkwdbmpz/catalog/images/pr_p/5/2/5/4/8/6/1/0/52548610e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_xnrcvkwdbmpz/catalog/images/pr_p/5/2/5/4/8/6/1/0/52548610f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_xnrcvkwdbmpz/catalog/images/pr_p/5/2/5/4/8/6/1/0/52548610g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_xnrcvkwdbmpz/catalog/images/pr_p/5/2/5/4/8/6/1/0/52548610h.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/villeneuve-dascq/acheter/roubaix/appartement-2-pieces-52548610"
   },
   {
     "id": "52563545",

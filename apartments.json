@@ -6057,8 +6057,8 @@
   {
     "id": "22561362",
     "city": "CRETEIL (94000)",
-    "lat": 48.78909,
-    "lng": 2.451301,
+    "lat": 48.779045,
+    "lng": 2.459428,
     "surface": 66,
     "rooms": 3,
     "price": 255000,
@@ -13691,6 +13691,27 @@
     "source": "https://www.laforet.com/agence-immobiliere/montreuil/acheter/montreuil/appartement-3-pieces-52532828"
   },
   {
+    "id": "22688613",
+    "city": "MONTREUIL (93100)",
+    "lat": 48.863016,
+    "lng": 2.458244,
+    "surface": 57,
+    "rooms": 3,
+    "price": 400000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/montreuil/acheter/montreuil/appartement-3-pieces-22688613"
+  },
+  {
     "id": "52277193",
     "city": "MONTREUIL (93100)",
     "lat": 48.863016,
@@ -13712,27 +13733,6 @@
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/5/2/2/7/7/1/9/3/52277193k.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/montreuil/acheter/montreuil/appartement-3-pieces-52277193"
-  },
-  {
-    "id": "22688613",
-    "city": "MONTREUIL (93100)",
-    "lat": 48.863016,
-    "lng": 2.458244,
-    "surface": 57,
-    "rooms": 3,
-    "price": 400000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613j.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/montreuil/acheter/montreuil/appartement-3-pieces-22688613"
   },
   {
     "id": "52559970",
@@ -22572,6 +22572,25 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lingolsheim_adx/catalog/images/pr_p/5/2/4/6/6/4/8/4/52466484g.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/lingolsheim/acheter/strasbourg/appartement-5-pieces-52466484"
+  },
+  {
+    "id": "52646246",
+    "city": "STRASBOURG (67000)",
+    "lat": 48.579831,
+    "lng": 7.761454,
+    "surface": 45,
+    "rooms": 2,
+    "price": 228975,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/6/4/6/2/4/6/52646246a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/6/4/6/2/4/6/52646246b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/6/4/6/2/4/6/52646246c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/6/4/6/2/4/6/52646246d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/6/4/6/2/4/6/52646246e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/6/4/6/2/4/6/52646246f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/6/4/6/2/4/6/52646246g.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/strasbourg-orangerie/acheter/strasbourg/appartement-2-pieces-52646246"
   },
   {
     "id": "52556610",

@@ -6034,8 +6034,8 @@
   {
     "id": "52596141",
     "city": "CRETEIL (94000)",
-    "lat": 48.779045,
-    "lng": 2.459428,
+    "lat": 48.78909,
+    "lng": 2.451301,
     "surface": 64,
     "rooms": 3,
     "price": 206500,
@@ -13691,27 +13691,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/montreuil/acheter/montreuil/appartement-3-pieces-52532828"
   },
   {
-    "id": "22688613",
-    "city": "MONTREUIL (93100)",
-    "lat": 48.863016,
-    "lng": 2.458244,
-    "surface": 57,
-    "rooms": 3,
-    "price": 400000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613j.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/montreuil/acheter/montreuil/appartement-3-pieces-22688613"
-  },
-  {
     "id": "52277193",
     "city": "MONTREUIL (93100)",
     "lat": 48.863016,
@@ -13733,6 +13712,27 @@
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/5/2/2/7/7/1/9/3/52277193k.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/montreuil/acheter/montreuil/appartement-3-pieces-52277193"
+  },
+  {
+    "id": "22688613",
+    "city": "MONTREUIL (93100)",
+    "lat": 48.863016,
+    "lng": 2.458244,
+    "surface": 57,
+    "rooms": 3,
+    "price": 400000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_bobigny/catalog/images/pr_p/2/2/6/8/8/6/1/3/22688613j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/montreuil/acheter/montreuil/appartement-3-pieces-22688613"
   },
   {
     "id": "52559970",
@@ -19852,6 +19852,24 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris18julesjoffrin/acheter/paris-18/appartement-2-pieces-52615007#section-video"
   },
   {
+    "id": "52648913",
+    "city": "PARIS (75018)",
+    "lat": 48.883428,
+    "lng": 2.339619,
+    "surface": 92,
+    "rooms": 4,
+    "price": 1000000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/6/4/8/9/1/3/52648913a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/6/4/8/9/1/3/52648913b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/6/4/8/9/1/3/52648913c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/6/4/8/9/1/3/52648913d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/6/4/8/9/1/3/52648913e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/6/4/8/9/1/3/52648913f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris-4-arsenal/acheter/paris-18/appartement-4-pieces-52648913"
+  },
+  {
     "id": "52618061",
     "city": "PARIS (75019)",
     "lat": 48.879332,
@@ -23890,8 +23908,7 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_toulouse-bonnefoy/catalog/images/pr_p/5/2/5/8/9/5/5/2/52589552g.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_toulouse-bonnefoy/catalog/images/pr_p/5/2/5/8/9/5/5/2/52589552h.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_toulouse-bonnefoy/catalog/images/pr_p/5/2/5/8/9/5/5/2/52589552i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_toulouse-bonnefoy/catalog/images/pr_p/5/2/5/8/9/5/5/2/52589552j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_toulouse-bonnefoy/catalog/images/pr_p/5/2/5/8/9/5/5/2/52589552k.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_toulouse-bonnefoy/catalog/images/pr_p/5/2/5/8/9/5/5/2/52589552j.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/toulouse-bonnefoy/acheter/toulouse/appartement-3-pieces-52589552"
   },

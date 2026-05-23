@@ -816,7 +816,7 @@
     "lng": 1.374374,
     "surface": 66,
     "rooms": 3,
-    "price": 179000,
+    "price": 169000,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_blagnac/catalog/images/pr_p/5/2/4/9/1/3/6/8/52491368a.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_blagnac/catalog/images/pr_p/5/2/4/9/1/3/6/8/52491368b.jpg",
@@ -2073,6 +2073,23 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-1-piece-52688072"
   },
   {
+    "id": "52707368",
+    "city": "BOULOGNE BILLANCOURT (92100)",
+    "lat": 48.838234,
+    "lng": 2.236147,
+    "surface": 32,
+    "rooms": 2,
+    "price": 272000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/7/3/6/8/52707368a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/7/3/6/8/52707368b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/7/3/6/8/52707368c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/7/3/6/8/52707368d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/7/3/6/8/52707368e.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-2-pieces-52707368"
+  },
+  {
     "id": "52707397",
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
@@ -2357,7 +2374,7 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-2-pieces-52703878"
   },
   {
-    "id": "52701991",
+    "id": "52709094",
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
     "lng": 2.236147,
@@ -2365,14 +2382,13 @@
     "rooms": 2,
     "price": 458000,
     "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/1/9/9/1/52701991a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/1/9/9/1/52701991b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/1/9/9/1/52701991c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/1/9/9/1/52701991d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/1/9/9/1/52701991e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/1/9/9/1/52701991f.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/4/52709094a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/4/52709094b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/4/52709094c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/4/52709094d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/4/52709094e.jpg"
     ],
-    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-2-pieces-52701991"
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-2-pieces-52709094"
   },
   {
     "id": "52512795",
@@ -2431,7 +2447,7 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-centre/acheter/boulogne-billancourt/appartement-3-pieces-22033671"
   },
   {
-    "id": "52688104",
+    "id": "52709096",
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
     "lng": 2.236147,
@@ -2439,11 +2455,13 @@
     "rooms": 2,
     "price": 469000,
     "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/0/4/52688104a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/0/4/52688104b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/0/4/52688104c.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/6/52709096a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/6/52709096b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/6/52709096c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/6/52709096d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/9/6/52709096e.jpg"
     ],
-    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-2-pieces-52688104"
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-2-pieces-52709096"
   },
   {
     "id": "52623716",
@@ -2774,6 +2792,24 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-4-pieces-52591415"
   },
   {
+    "id": "52709101",
+    "city": "BOULOGNE BILLANCOURT (92100)",
+    "lat": 48.838234,
+    "lng": 2.236147,
+    "surface": 80,
+    "rooms": 3,
+    "price": 740000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/0/1/52709101a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/0/1/52709101b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/0/1/52709101c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/0/1/52709101d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/0/1/52709101e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/0/1/52709101f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/paris/appartement-3-pieces-52709101"
+  },
+  {
     "id": "52706454",
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
@@ -2842,7 +2878,11 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/1/52688111c.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/1/52688111d.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/1/52688111e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/1/52688111f.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/1/52688111f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/1/52688111g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/1/52688111h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/1/52688111i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/1/52688111j.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-3-pieces-52688111"
   },
@@ -2873,6 +2913,26 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-sud/acheter/boulogne-billancourt/appartement-5-pieces-52623681"
   },
   {
+    "id": "52709169",
+    "city": "BOULOGNE BILLANCOURT (92100)",
+    "lat": 48.838234,
+    "lng": 2.236147,
+    "surface": 87,
+    "rooms": 4,
+    "price": 800000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/6/9/52709169a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/6/9/52709169b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/6/9/52709169c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/6/9/52709169d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/6/9/52709169e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/6/9/52709169f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/6/9/52709169g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/1/6/9/52709169h.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-4-pieces-52709169"
+  },
+  {
     "id": "52651188",
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
@@ -2893,7 +2953,7 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-4-pieces-52651188"
   },
   {
-    "id": "52688116",
+    "id": "52709060",
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
     "lng": 2.236147,
@@ -2901,32 +2961,13 @@
     "rooms": 3,
     "price": 830000,
     "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/6/52688116a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/6/52688116b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/6/52688116c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/6/52688116d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/1/6/52688116e.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/0/52709060a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/0/52709060b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/0/52709060c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/0/52709060d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/0/52709060e.jpg"
     ],
-    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-3-pieces-52688116"
-  },
-  {
-    "id": "52695965",
-    "city": "BOULOGNE BILLANCOURT (92100)",
-    "lat": 48.838234,
-    "lng": 2.236147,
-    "surface": 90,
-    "rooms": 4,
-    "price": 847000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/9/5/9/6/5/52695965a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/9/5/9/6/5/52695965b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/9/5/9/6/5/52695965c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/9/5/9/6/5/52695965d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/9/5/9/6/5/52695965e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/9/5/9/6/5/52695965f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/9/5/9/6/5/52695965g.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-4-pieces-52695965"
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-3-pieces-52709060"
   },
   {
     "id": "52612248",
@@ -3018,23 +3059,23 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-centre/acheter/boulogne-billancourt/appartement-4-pieces-22645920"
   },
   {
-    "id": "52688122",
+    "id": "52709061",
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
     "lng": 2.236147,
     "surface": 95,
     "rooms": 4,
-    "price": 1040000,
+    "price": 998000,
     "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/2/2/52688122a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/2/2/52688122b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/2/2/52688122c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/2/2/52688122d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/2/2/52688122e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/2/2/52688122f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/6/8/8/1/2/2/52688122g.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/1/52709061a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/1/52709061b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/1/52709061c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/1/52709061d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/1/52709061e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/1/52709061f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/2/7/0/9/0/6/1/52709061g.jpg"
     ],
-    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-4-pieces-52688122"
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-4-pieces-52709061"
   },
   {
     "id": "52637590",
@@ -5958,8 +5999,8 @@
   {
     "id": "52596141",
     "city": "CRETEIL (94000)",
-    "lat": 48.78909,
-    "lng": 2.451301,
+    "lat": 48.779045,
+    "lng": 2.459428,
     "surface": 64,
     "rooms": 3,
     "price": 206500,
@@ -5981,8 +6022,8 @@
   {
     "id": "22561362",
     "city": "CRETEIL (94000)",
-    "lat": 48.78909,
-    "lng": 2.451301,
+    "lat": 48.779045,
+    "lng": 2.459428,
     "surface": 66,
     "rooms": 3,
     "price": 255000,
@@ -8827,28 +8868,6 @@
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/4/7/9/6/2/52647962l.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/lyon3-montchat/acheter/lyon-03/appartement-5-pieces-52647962"
-  },
-  {
-    "id": "52689780",
-    "city": "LYON (69003)",
-    "lat": 45.752419,
-    "lng": 4.887681,
-    "surface": 92,
-    "rooms": 4,
-    "price": 495000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/6/8/9/7/8/0/52689780j.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/lyon3-montchat/acheter/lyon-03/appartement-4-pieces-52689780"
   },
   {
     "id": "52449587",
@@ -13852,6 +13871,23 @@
     "source": "https://www.laforet.com/agence-immobiliere/nanterre/acheter/nanterre/appartement-1-piece-22010128"
   },
   {
+    "id": "52707382",
+    "city": "NANTERRE (92000)",
+    "lat": 48.900439,
+    "lng": 2.196654,
+    "surface": 29,
+    "rooms": 1,
+    "price": 190000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/0/7/3/8/2/52707382a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/0/7/3/8/2/52707382b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/0/7/3/8/2/52707382c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/0/7/3/8/2/52707382d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/0/7/3/8/2/52707382e.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/nanterre/acheter/nanterre/appartement-1-piece-52707382#section-video"
+  },
+  {
     "id": "52686435",
     "city": "NANTERRE (92000)",
     "lat": 48.900439,
@@ -14327,7 +14363,7 @@
     "lng": -1.54533,
     "surface": 48,
     "rooms": 2,
-    "price": 160200,
+    "price": 154660,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/2/1/2/4/2/9/52212429a.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/2/1/2/4/2/9/52212429b.jpg",
@@ -14375,7 +14411,7 @@
     "lng": -1.54533,
     "surface": 50,
     "rooms": 2,
-    "price": 202920,
+    "price": 192200,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/5/8/8/5/2/0/52588520a.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/5/8/8/5/2/0/52588520b.jpg",
@@ -19860,6 +19896,26 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris11bastille/acheter/paris-20/appartement-3-pieces-52696004"
   },
   {
+    "id": "52212720",
+    "city": "PARIS (75020)",
+    "lat": 48.865484,
+    "lng": 2.387843,
+    "surface": 72,
+    "rooms": 4,
+    "price": 618000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/2/1/2/7/2/0/52212720a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/2/1/2/7/2/0/52212720b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/2/1/2/7/2/0/52212720c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/2/1/2/7/2/0/52212720d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/2/1/2/7/2/0/52212720e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/2/1/2/7/2/0/52212720f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/2/1/2/7/2/0/52212720g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/2/1/2/7/2/0/52212720h.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris20/acheter/paris-20/appartement-4-pieces-52212720"
+  },
+  {
     "id": "52696010",
     "city": "PARIS (75020)",
     "lat": 48.865484,
@@ -19991,6 +20047,28 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/5/2/2/8/9/1/1/6/52289116m.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-centre/acheter/paris-08/appartement-3-pieces-52289116"
+  },
+  {
+    "id": "52686462",
+    "city": "PESSAC (33600)",
+    "lat": 44.787468,
+    "lng": -0.675933,
+    "surface": 42,
+    "rooms": 2,
+    "price": 191000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/6/8/6/4/6/2/52686462j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/pessac/acheter/pessac/appartement-2-pieces-52686462"
   },
   {
     "id": "52300309",
@@ -21448,13 +21526,14 @@
     "lng": 4.819563,
     "surface": 190,
     "rooms": 5,
-    "price": 710000,
+    "price": 690000,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861a.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861b.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861c.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861d.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861f.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861g.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861h.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861i.jpg",
@@ -21464,9 +21543,7 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861m.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861n.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861o.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861p.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861q.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861r.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/4/6/8/6/1/52646861p.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/lyon4/acheter/saint-romain-au-mont-d-or/appartement-5-pieces-52646861"
   },
@@ -21536,6 +21613,24 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_schiltigheim/catalog/images/pr_p/5/2/5/6/1/5/2/4/52561524i.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/schiltigheim/acheter/schiltigheim/appartement-3-pieces-52561524"
+  },
+  {
+    "id": "52591499",
+    "city": "SCHILTIGHEIM (67300)",
+    "lat": 48.609528,
+    "lng": 7.755145,
+    "surface": 40,
+    "rooms": 2,
+    "price": 173000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_schiltigheim/catalog/images/pr_p/5/2/5/9/1/4/9/9/52591499a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_schiltigheim/catalog/images/pr_p/5/2/5/9/1/4/9/9/52591499b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_schiltigheim/catalog/images/pr_p/5/2/5/9/1/4/9/9/52591499c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_schiltigheim/catalog/images/pr_p/5/2/5/9/1/4/9/9/52591499d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_schiltigheim/catalog/images/pr_p/5/2/5/9/1/4/9/9/52591499e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_schiltigheim/catalog/images/pr_p/5/2/5/9/1/4/9/9/52591499f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/schiltigheim/acheter/schiltigheim/appartement-2-pieces-52591499"
   },
   {
     "id": "52650173",

@@ -2073,6 +2073,24 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-1-piece-52688072"
   },
   {
+    "id": "52701942",
+    "city": "BOULOGNE BILLANCOURT (92100)",
+    "lat": 48.838234,
+    "lng": 2.236147,
+    "surface": 25,
+    "rooms": 1,
+    "price": 255000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/7/0/1/9/4/2/52701942a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/7/0/1/9/4/2/52701942b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/7/0/1/9/4/2/52701942c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/7/0/1/9/4/2/52701942d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/7/0/1/9/4/2/52701942e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/7/0/1/9/4/2/52701942f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-sud/acheter/boulogne-billancourt/appartement-1-piece-52701942"
+  },
+  {
     "id": "52707368",
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
@@ -6092,8 +6110,8 @@
   {
     "id": "22561362",
     "city": "CRETEIL (94000)",
-    "lat": 48.779045,
-    "lng": 2.459428,
+    "lat": 48.78909,
+    "lng": 2.451301,
     "surface": 66,
     "rooms": 3,
     "price": 255000,
@@ -15045,6 +15063,30 @@
     "source": "https://www.laforet.com/agence-immobiliere/neuillysurseine/acheter/neuilly-sur-seine/appartement-5-pieces-52701770"
   },
   {
+    "id": "52696658",
+    "city": "NEUWILLER LES SAVERNE (67330)",
+    "lat": 48.8217,
+    "lng": 7.409393,
+    "surface": 64,
+    "rooms": 3,
+    "price": 275600,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/6/9/6/6/5/8/52696658l.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/strasbourg/acheter/neuwiller-les-saverne/appartement-3-pieces-52696658"
+  },
+  {
     "id": "52644031",
     "city": "NICE (06000)",
     "lat": 43.694572,
@@ -17751,26 +17793,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/7/0/6/4/9/2/52706492i.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/paris20avron/acheter/paris-11/appartement-8-pieces-52706492"
-  },
-  {
-    "id": "52703826",
-    "city": "PARIS (75011)",
-    "lat": 48.858606,
-    "lng": 2.375142,
-    "surface": 145,
-    "rooms": 5,
-    "price": 1950000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/7/0/3/8/2/6/52703826a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/7/0/3/8/2/6/52703826b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/7/0/3/8/2/6/52703826c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/7/0/3/8/2/6/52703826d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/7/0/3/8/2/6/52703826e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/7/0/3/8/2/6/52703826f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/7/0/3/8/2/6/52703826g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/7/0/3/8/2/6/52703826h.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/paris3-marais/acheter/paris-11/appartement-5-pieces-52703826"
   },
   {
     "id": "52703831",

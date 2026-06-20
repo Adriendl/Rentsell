@@ -267,6 +267,25 @@
     "source": "https://www.laforet.com/agence-immobiliere/antibes/acheter/antibes/appartement-1-piece-52698575#section-video"
   },
   {
+    "id": "52768798",
+    "city": "ANTIBES (06600)",
+    "lat": 43.605978,
+    "lng": 7.084398,
+    "surface": 56,
+    "rooms": 3,
+    "price": 245000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798g.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/antibes/acheter/antibes/appartement-3-pieces-52768798"
+  },
+  {
     "id": "52765695",
     "city": "ANTIBES (06600)",
     "lat": 43.605978,
@@ -2436,7 +2455,7 @@
     "lat": 48.838234,
     "lng": 2.236147,
     "surface": 53,
-    "rooms": 3,
+    "rooms": 2,
     "price": 458000,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/5/2/3/3/9/1/7/0/52339170a.jpg",
@@ -2453,7 +2472,7 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/5/2/3/3/9/1/7/0/52339170m.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris15pasteur/catalog/images/pr_p/5/2/3/3/9/1/7/0/52339170n.jpg"
     ],
-    "source": "https://www.laforet.com/agence-immobiliere/boulogne-centre/acheter/boulogne-billancourt/appartement-3-pieces-52339170"
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-centre/acheter/boulogne-billancourt/appartement-2-pieces-52339170"
   },
   {
     "id": "52758176",
@@ -3049,7 +3068,7 @@
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
     "lng": 2.236147,
-    "surface": 105,
+    "surface": 90,
     "rooms": 4,
     "price": 950000,
     "images": [
@@ -5614,8 +5633,8 @@
   {
     "id": "52596141",
     "city": "CRETEIL (94000)",
-    "lat": 48.779045,
-    "lng": 2.459428,
+    "lat": 48.78909,
+    "lng": 2.451301,
     "surface": 64,
     "rooms": 3,
     "price": 196000,
@@ -13529,6 +13548,29 @@
     "source": "https://www.laforet.com/agence-immobiliere/nanterre/acheter/nanterre/appartement-3-pieces-52736339"
   },
   {
+    "id": "52761767",
+    "city": "NANTERRE (92000)",
+    "lat": 48.900439,
+    "lng": 2.196654,
+    "surface": 71,
+    "rooms": 4,
+    "price": 369000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/1/7/6/7/52761767k.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/nanterre/acheter/nanterre/appartement-4-pieces-52761767"
+  },
+  {
     "id": "52768155",
     "city": "NANTERRE (92000)",
     "lat": 48.900439,
@@ -16813,28 +16855,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris3-marais/acheter/paris-07/appartement-1-piece-52759112"
   },
   {
-    "id": "52754953",
-    "city": "PARIS (75008)",
-    "lat": 48.87335,
-    "lng": 2.307114,
-    "surface": 28,
-    "rooms": 2,
-    "price": 332000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/4/9/5/3/52754953j.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/paris18julesjoffrin/acheter/paris-08/appartement-2-pieces-52754953"
-  },
-  {
     "id": "52744874",
     "city": "PARIS (75009)",
     "lat": 48.877108,
@@ -16928,30 +16948,6 @@
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/6/3/1/1/9/52763119h.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/paris10republique/acheter/paris-10/appartement-1-piece-52763119"
-  },
-  {
-    "id": "52751848",
-    "city": "PARIS (75010)",
-    "lat": 48.875079,
-    "lng": 2.351787,
-    "surface": 40,
-    "rooms": 2,
-    "price": 415000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/7/5/1/8/4/8/52751848l.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/paris10republique/acheter/paris-10/appartement-2-pieces-52751848"
   },
   {
     "id": "52762779",
@@ -18270,6 +18266,27 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris14alesia/acheter/paris-14/appartement-2-pieces-52554100"
   },
   {
+    "id": "52760792",
+    "city": "PARIS (75014)",
+    "lat": 48.826614,
+    "lng": 2.334557,
+    "surface": 56,
+    "rooms": 3,
+    "price": 596000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/6/0/7/9/2/52760792a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/6/0/7/9/2/52760792b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/6/0/7/9/2/52760792c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/6/0/7/9/2/52760792d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/6/0/7/9/2/52760792e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/6/0/7/9/2/52760792f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/6/0/7/9/2/52760792g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/6/0/7/9/2/52760792h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/6/0/7/9/2/52760792i.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris14alesia/acheter/paris-14/appartement-3-pieces-52760792"
+  },
+  {
     "id": "52752773",
     "city": "PARIS (75014)",
     "lat": 48.826614,
@@ -18966,30 +18983,30 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris17ternes/acheter/paris-17/appartement-1-piece-52698536"
   },
   {
-    "id": "52670458",
+    "id": "52769189",
     "city": "PARIS (75017)",
     "lat": 48.88353,
     "lng": 2.313889,
     "surface": 15,
     "rooms": 1,
-    "price": 184000,
+    "price": 180000,
     "images": [
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458m.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/0/4/5/8/52670458n.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189m.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/6/9/1/8/9/52769189n.jpg"
     ],
-    "source": "https://www.laforet.com/agence-immobiliere/paris17batignolles/acheter/paris-17/appartement-1-piece-52670458"
+    "source": "https://www.laforet.com/agence-immobiliere/paris17batignolles/acheter/paris-17/appartement-1-piece-52769189"
   },
   {
     "id": "52676353",
@@ -23937,6 +23954,22 @@
     "source": "https://www.laforet.com/agence-immobiliere/tournefeuille/acheter/villeneuve-tolosane/appartement-3-pieces-52747523#section-video"
   },
   {
+    "id": "52763583",
+    "city": "VILLEURBANNE (69100)",
+    "lat": 45.778215,
+    "lng": 4.888672,
+    "surface": 33,
+    "rooms": 2,
+    "price": 129000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/7/6/3/5/8/3/52763583a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/7/6/3/5/8/3/52763583b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/7/6/3/5/8/3/52763583c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/7/6/3/5/8/3/52763583d.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/rillieux-la-pape/acheter/villeurbanne/appartement-2-pieces-52763583"
+  },
+  {
     "id": "52741535",
     "city": "VILLEURBANNE (69100)",
     "lat": 45.778215,
@@ -23952,22 +23985,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/7/4/1/5/3/5/52741535e.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/caluire/acheter/villeurbanne/appartement-2-pieces-52741535"
-  },
-  {
-    "id": "52763583",
-    "city": "VILLEURBANNE (69100)",
-    "lat": 45.778215,
-    "lng": 4.888672,
-    "surface": 33,
-    "rooms": 2,
-    "price": 129000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/7/6/3/5/8/3/52763583a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/7/6/3/5/8/3/52763583b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/7/6/3/5/8/3/52763583c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_caluire/catalog/images/pr_p/5/2/7/6/3/5/8/3/52763583d.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/rillieux-la-pape/acheter/villeurbanne/appartement-2-pieces-52763583"
   },
   {
     "id": "52550084",
@@ -24344,7 +24361,7 @@
     "city": "VINCENNES (94300)",
     "lat": 48.841867,
     "lng": 2.435916,
-    "surface": 32,
+    "surface": 39,
     "rooms": 2,
     "price": 329000,
     "images": [
@@ -24357,7 +24374,9 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/5/2/6/3/1/2/52526312g.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/5/2/6/3/1/2/52526312h.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/5/2/6/3/1/2/52526312i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/5/2/6/3/1/2/52526312j.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/5/2/6/3/1/2/52526312j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/5/2/6/3/1/2/52526312k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/5/2/6/3/1/2/52526312l.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/vincennes-mairie/acheter/vincennes/appartement-2-pieces-52526312"
   },

@@ -250,6 +250,25 @@
     "source": "https://www.laforet.com/agence-immobiliere/antibes/acheter/antibes/appartement-1-piece-52689182"
   },
   {
+    "id": "52768798",
+    "city": "ANTIBES (06600)",
+    "lat": 43.605978,
+    "lng": 7.084398,
+    "surface": 56,
+    "rooms": 3,
+    "price": 165000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798g.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/antibes/acheter/antibes/appartement-3-pieces-52768798"
+  },
+  {
     "id": "52698575",
     "city": "ANTIBES (06600)",
     "lat": 43.605978,
@@ -265,25 +284,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/6/9/8/5/7/5/52698575e.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/antibes/acheter/antibes/appartement-1-piece-52698575#section-video"
-  },
-  {
-    "id": "52768798",
-    "city": "ANTIBES (06600)",
-    "lat": 43.605978,
-    "lng": 7.084398,
-    "surface": 56,
-    "rooms": 3,
-    "price": 245000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/7/6/8/7/9/8/52768798g.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/antibes/acheter/antibes/appartement-3-pieces-52768798"
   },
   {
     "id": "52765695",
@@ -5656,8 +5656,8 @@
   {
     "id": "52596141",
     "city": "CRETEIL (94000)",
-    "lat": 48.78909,
-    "lng": 2.451301,
+    "lat": 48.779045,
+    "lng": 2.459428,
     "surface": 64,
     "rooms": 3,
     "price": 196000,

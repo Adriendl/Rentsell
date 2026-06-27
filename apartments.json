@@ -1607,6 +1607,24 @@
     "source": "https://www.laforet.com/agence-immobiliere/bordeauxcauderan/acheter/bordeaux/appartement-4-pieces-52460554"
   },
   {
+    "id": "22034523",
+    "city": "BORDEAUX (33200)",
+    "lat": 44.845614,
+    "lng": -0.623284,
+    "surface": 70,
+    "rooms": 3,
+    "price": 293500,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_bordeauxcauderan_lr/catalog/images/pr_p/2/2/0/3/4/5/2/3/22034523a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_bordeauxcauderan_lr/catalog/images/pr_p/2/2/0/3/4/5/2/3/22034523b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_bordeauxcauderan_lr/catalog/images/pr_p/2/2/0/3/4/5/2/3/22034523c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_bordeauxcauderan_lr/catalog/images/pr_p/2/2/0/3/4/5/2/3/22034523d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_bordeauxcauderan_lr/catalog/images/pr_p/2/2/0/3/4/5/2/3/22034523e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_bordeauxcauderan_lr/catalog/images/pr_p/2/2/0/3/4/5/2/3/22034523f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/bordeauxcauderan/acheter/bordeaux/appartement-3-pieces-22034523"
+  },
+  {
     "id": "52624085",
     "city": "BORDEAUX (33200)",
     "lat": 44.845614,
@@ -5207,33 +5225,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/colombes/acheter/colombes/appartement-2-pieces-52754348"
   },
   {
-    "id": "52771535",
-    "city": "COLOMBES (92700)",
-    "lat": 48.926865,
-    "lng": 2.267236,
-    "surface": 44,
-    "rooms": 2,
-    "price": 230000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535m.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535n.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/7/7/1/5/3/5/52771535o.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/colombes/acheter/colombes/appartement-2-pieces-52771535"
-  },
-  {
     "id": "52676342",
     "city": "COLOMBES (92700)",
     "lat": 48.926865,
@@ -5249,7 +5240,7 @@
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/6/3/4/2/52676342e.jpg",
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/6/3/4/2/52676342f.jpg",
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/6/3/4/2/52676342g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/6/3/4/2/52676342i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/6/3/4/2/52676342h.jpg",
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/6/3/4/2/52676342j.jpg",
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/6/7/6/3/4/2/52676342k.jpg"
     ],
@@ -5597,8 +5588,8 @@
   {
     "id": "52596141",
     "city": "CRETEIL (94000)",
-    "lat": 48.779045,
-    "lng": 2.459428,
+    "lat": 48.78909,
+    "lng": 2.451301,
     "surface": 64,
     "rooms": 3,
     "price": 196000,
@@ -7104,6 +7095,26 @@
     "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-1-piece-52738989"
   },
   {
+    "id": "52784537",
+    "city": "LEVALLOIS PERRET (92300)",
+    "lat": 48.891253,
+    "lng": 2.289757,
+    "surface": 42,
+    "rooms": 2,
+    "price": 315000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/7/52784537a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/7/52784537b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/7/52784537c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/7/52784537d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/7/52784537e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/7/52784537f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/7/52784537g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/7/52784537h.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-2-pieces-52784537"
+  },
+  {
     "id": "52698526",
     "city": "LEVALLOIS PERRET (92300)",
     "lat": 48.891253,
@@ -7122,6 +7133,24 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/6/9/8/5/2/6/52698526h.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-2-pieces-52698526"
+  },
+  {
+    "id": "52784539",
+    "city": "LEVALLOIS PERRET (92300)",
+    "lat": 48.891253,
+    "lng": 2.289757,
+    "surface": 41,
+    "rooms": 2,
+    "price": 352000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/9/52784539a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/9/52784539b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/9/52784539c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/9/52784539d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/9/52784539e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/3/9/52784539f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-2-pieces-52784539"
   },
   {
     "id": "52754892",
@@ -7179,6 +7208,23 @@
     "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-2-pieces-52776525"
   },
   {
+    "id": "52784555",
+    "city": "LEVALLOIS PERRET (92300)",
+    "lat": 48.891253,
+    "lng": 2.289757,
+    "surface": 53,
+    "rooms": 3,
+    "price": 450000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/5/5/52784555a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/5/5/52784555b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/5/5/52784555c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/5/5/52784555d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/5/5/52784555e.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-3-pieces-52784555"
+  },
+  {
     "id": "52744981",
     "city": "LEVALLOIS PERRET (92300)",
     "lat": 48.891253,
@@ -7194,6 +7240,30 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/4/4/9/8/1/52744981e.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-3-pieces-52744981"
+  },
+  {
+    "id": "52784560",
+    "city": "LEVALLOIS PERRET (92300)",
+    "lat": 48.891253,
+    "lng": 2.289757,
+    "surface": 47,
+    "rooms": 2,
+    "price": 460000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/6/0/52784560l.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-2-pieces-52784560"
   },
   {
     "id": "52749670",
@@ -7260,6 +7330,26 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/3/0/3/1/5/52730315g.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-2-pieces-52730315"
+  },
+  {
+    "id": "52784574",
+    "city": "LEVALLOIS PERRET (92300)",
+    "lat": 48.891253,
+    "lng": 2.289757,
+    "surface": 62,
+    "rooms": 4,
+    "price": 530000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/7/4/52784574a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/7/4/52784574b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/7/4/52784574c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/7/4/52784574d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/7/4/52784574e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/7/4/52784574f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/7/4/52784574g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/7/8/4/5/7/4/52784574h.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-4-pieces-52784574"
   },
   {
     "id": "52744983",
@@ -18284,6 +18374,31 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris14alesia/acheter/paris-14/appartement-3-pieces-52671166#section-video"
   },
   {
+    "id": "52783272",
+    "city": "PARIS (75014)",
+    "lat": 48.826614,
+    "lng": 2.334557,
+    "surface": 54,
+    "rooms": 3,
+    "price": 572000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/7/8/3/2/7/2/52783272m.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris14alesia/acheter/paris-14/appartement-3-pieces-52783272"
+  },
+  {
     "id": "52554100",
     "city": "PARIS (75014)",
     "lat": 48.826614,
@@ -18685,6 +18800,24 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_charentonlepont/catalog/images/pr_p/5/2/5/9/9/1/0/9/52599109i.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/charenton-le-pont/acheter/paris-15/appartement-2-pieces-52599109"
+  },
+  {
+    "id": "52710768",
+    "city": "PARIS (75015)",
+    "lat": 48.848028,
+    "lng": 2.283637,
+    "surface": 35,
+    "rooms": 2,
+    "price": 354500,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/7/1/0/7/6/8/52710768a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/7/1/0/7/6/8/52710768b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/7/1/0/7/6/8/52710768c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/7/1/0/7/6/8/52710768d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/7/1/0/7/6/8/52710768e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/7/1/0/7/6/8/52710768f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris15convention/acheter/paris-15/appartement-2-pieces-52710768"
   },
   {
     "id": "52783416",
@@ -20985,6 +21118,29 @@
     "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-1-piece-52732668"
   },
   {
+    "id": "52784003",
+    "city": "RUEIL MALMAISON (92500)",
+    "lat": 48.882124,
+    "lng": 2.193277,
+    "surface": 52,
+    "rooms": 3,
+    "price": 264000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/3/52784003k.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-3-pieces-52784003"
+  },
+  {
     "id": "52699273",
     "city": "RUEIL MALMAISON (92500)",
     "lat": 48.882124,
@@ -21032,6 +21188,72 @@
     "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-3-pieces-52508955"
   },
   {
+    "id": "52784008",
+    "city": "RUEIL MALMAISON (92500)",
+    "lat": 48.882124,
+    "lng": 2.193277,
+    "surface": 45,
+    "rooms": 2,
+    "price": 298000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/0/8/52784008j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-2-pieces-52784008"
+  },
+  {
+    "id": "52784010",
+    "city": "RUEIL MALMAISON (92500)",
+    "lat": 48.882124,
+    "lng": 2.193277,
+    "surface": 66,
+    "rooms": 4,
+    "price": 332000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/0/52784010j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-4-pieces-52784010"
+  },
+  {
+    "id": "52784013",
+    "city": "RUEIL MALMAISON (92500)",
+    "lat": 48.882124,
+    "lng": 2.193277,
+    "surface": 66,
+    "rooms": 4,
+    "price": 347000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/3/52784013j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-4-pieces-52784013"
+  },
+  {
     "id": "22264239",
     "city": "RUEIL MALMAISON (92500)",
     "lat": 48.882124,
@@ -21059,6 +21281,28 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/2/2/2/6/4/2/3/9/22264239q.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-3-pieces-22264239"
+  },
+  {
+    "id": "52784014",
+    "city": "RUEIL MALMAISON (92500)",
+    "lat": 48.882124,
+    "lng": 2.193277,
+    "surface": 75,
+    "rooms": 4,
+    "price": 365000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/4/52784014j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-4-pieces-52784014"
   },
   {
     "id": "52663658",
@@ -21162,6 +21406,31 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/3/8/5/9/4/52738594q.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-5-pieces-52738594"
+  },
+  {
+    "id": "52784018",
+    "city": "RUEIL MALMAISON (92500)",
+    "lat": 48.882124,
+    "lng": 2.193277,
+    "surface": 95,
+    "rooms": 4,
+    "price": 790000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rueilmalmaison/catalog/images/pr_p/5/2/7/8/4/0/1/8/52784018m.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-4-pieces-52784018"
   },
   {
     "id": "52333755",

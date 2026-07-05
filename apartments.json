@@ -2874,9 +2874,6 @@
     "rooms": 5,
     "price": 880000,
     "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/6/1/2/2/4/8/52612248a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/6/1/2/2/4/8/52612248b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/6/1/2/2/4/8/52612248c.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/6/1/2/2/4/8/52612248d.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/6/1/2/2/4/8/52612248e.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_boulogne-sud_hlp/catalog/images/pr_p/5/2/6/1/2/2/4/8/52612248f.jpg",
@@ -5393,8 +5390,8 @@
   {
     "id": "52596141",
     "city": "CRETEIL (94000)",
-    "lat": 48.78909,
-    "lng": 2.451301,
+    "lat": 48.779045,
+    "lng": 2.459428,
     "surface": 64,
     "rooms": 3,
     "price": 196000,
@@ -16188,6 +16185,23 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lhvdwqiepxnz/catalog/images/pr_p/5/2/5/3/5/5/8/2/52535582k.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/paris6/acheter/paris-06/appartement-5-pieces-52535582"
+  },
+  {
+    "id": "52787323",
+    "city": "PARIS (75006)",
+    "lat": 48.855512,
+    "lng": 2.337614,
+    "surface": 128,
+    "rooms": 6,
+    "price": 3235000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lhvdwqiepxnz/catalog/images/pr_p/5/2/7/8/7/3/2/3/52787323a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lhvdwqiepxnz/catalog/images/pr_p/5/2/7/8/7/3/2/3/52787323b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lhvdwqiepxnz/catalog/images/pr_p/5/2/7/8/7/3/2/3/52787323c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lhvdwqiepxnz/catalog/images/pr_p/5/2/7/8/7/3/2/3/52787323d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_lhvdwqiepxnz/catalog/images/pr_p/5/2/7/8/7/3/2/3/52787323e.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris6/acheter/paris-06/appartement-6-pieces-52787323"
   },
   {
     "id": "52759112",

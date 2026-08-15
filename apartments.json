@@ -14615,32 +14615,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/nice-port/acheter/nice/appartement-4-pieces-52742072"
   },
   {
-    "id": "22003271",
-    "city": "NICE (06000)",
-    "lat": 43.694572,
-    "lng": 7.255355,
-    "surface": 104,
-    "rooms": 4,
-    "price": 699000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271m.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nice/catalog/images/pr_p/2/2/0/0/3/2/7/1/22003271n.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/nice-centre/acheter/nice/appartement-4-pieces-22003271"
-  },
-  {
     "id": "52811178",
     "city": "NICE (06000)",
     "lat": 43.694572,
@@ -20346,6 +20320,27 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/2/2/6/8/5/7/5/9/22685759g.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/lyon4/acheter/saint-didier-au-mont-d-or/appartement-4-pieces-22685759"
+  },
+  {
+    "id": "52875781",
+    "city": "SAINT JEAN DE VEDAS (34430)",
+    "lat": 43.577344,
+    "lng": 3.818909,
+    "surface": 64,
+    "rooms": 3,
+    "price": 328000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpelliersud_jep/catalog/images/pr_p/5/2/8/7/5/7/8/1/52875781a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpelliersud_jep/catalog/images/pr_p/5/2/8/7/5/7/8/1/52875781b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpelliersud_jep/catalog/images/pr_p/5/2/8/7/5/7/8/1/52875781c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpelliersud_jep/catalog/images/pr_p/5/2/8/7/5/7/8/1/52875781d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpelliersud_jep/catalog/images/pr_p/5/2/8/7/5/7/8/1/52875781e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpelliersud_jep/catalog/images/pr_p/5/2/8/7/5/7/8/1/52875781f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpelliersud_jep/catalog/images/pr_p/5/2/8/7/5/7/8/1/52875781g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpelliersud_jep/catalog/images/pr_p/5/2/8/7/5/7/8/1/52875781h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpelliersud_jep/catalog/images/pr_p/5/2/8/7/5/7/8/1/52875781i.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/montpelliersud/acheter/saint-jean-de-vedas/appartement-3-pieces-52875781"
   },
   {
     "id": "52530880",

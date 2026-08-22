@@ -8737,23 +8737,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/marseillerepublique/acheter/marseille-02/appartement-2-pieces-52686718"
   },
   {
-    "id": "52370875",
-    "city": "MARSEILLE (13002)",
-    "lat": 43.296753,
-    "lng": 5.37254,
-    "surface": 54,
-    "rooms": 3,
-    "price": 170000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille01_unb/catalog/images/pr_p/5/2/3/7/0/8/7/5/52370875a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille01_unb/catalog/images/pr_p/5/2/3/7/0/8/7/5/52370875b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille01_unb/catalog/images/pr_p/5/2/3/7/0/8/7/5/52370875c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille01_unb/catalog/images/pr_p/5/2/3/7/0/8/7/5/52370875d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille01_unb/catalog/images/pr_p/5/2/3/7/0/8/7/5/52370875e.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/marseillerepublique/acheter/marseille-02/appartement-3-pieces-52370875"
-  },
-  {
     "id": "52848962",
     "city": "MARSEILLE (13002)",
     "lat": 43.296753,
@@ -10985,26 +10968,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/castelnau/acheter/montpellier/appartement-2-pieces-52532364#section-video"
   },
   {
-    "id": "52767527",
-    "city": "MONTPELLIER (34000)",
-    "lat": 43.601886,
-    "lng": 3.879242,
-    "surface": 72,
-    "rooms": 3,
-    "price": 299000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/6/7/5/2/7/52767527a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/6/7/5/2/7/52767527b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/6/7/5/2/7/52767527c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/6/7/5/2/7/52767527d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/6/7/5/2/7/52767527e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/6/7/5/2/7/52767527f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/6/7/5/2/7/52767527g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/6/7/5/2/7/52767527h.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/montpellierportmarianne/acheter/montpellier/appartement-3-pieces-52767527"
-  },
-  {
     "id": "22287188",
     "city": "MONTPELLIER (34000)",
     "lat": 43.601886,
@@ -11979,6 +11942,30 @@
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/7/6/7/1/4/52876714j.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/nanterre/acheter/nanterre/appartement-3-pieces-52876714"
+  },
+  {
+    "id": "52886372",
+    "city": "NANTERRE (92000)",
+    "lat": 48.900439,
+    "lng": 2.196654,
+    "surface": 66,
+    "rooms": 3,
+    "price": 330000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/2/8/8/6/3/7/2/52886372l.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/nanterre/acheter/nanterre/appartement-3-pieces-52886372"
   },
   {
     "id": "52864028",
@@ -21750,5 +21737,20 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_xnrcvkwdbmpz/catalog/images/pr_p/5/2/2/2/9/7/8/5/52229785q.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/villeneuve-dascq/acheter/wasquehal/appartement-3-pieces-52229785"
+  },
+  {
+    "id": "52795976",
+    "city": "saint jean de vedas (34430)",
+    "lat": 43.577344,
+    "lng": 3.818909,
+    "surface": 45,
+    "rooms": 2,
+    "price": 249200,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/9/5/9/7/6/52795976a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/9/5/9/7/6/52795976b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/7/9/5/9/7/6/52795976c.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/montpellierportmarianne/acheter/saint-jean-de-vedas/appartement-2-pieces-52795976"
   }
 ]

@@ -5201,8 +5201,8 @@
   {
     "id": "52596141",
     "city": "CRETEIL (94000)",
-    "lat": 48.779045,
-    "lng": 2.459428,
+    "lat": 48.78909,
+    "lng": 2.451301,
     "surface": 64,
     "rooms": 3,
     "price": 196000,
@@ -7774,6 +7774,22 @@
     "source": "https://www.laforet.com/agence-immobiliere/lyon8/acheter/lyon-03/appartement-2-pieces-52758136"
   },
   {
+    "id": "52923519",
+    "city": "LYON (69003)",
+    "lat": 45.752419,
+    "lng": 4.887681,
+    "surface": 45,
+    "rooms": 2,
+    "price": 239000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/1/9/52923519a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/1/9/52923519b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/1/9/52923519c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/1/9/52923519d.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/lyon-7/acheter/lyon-03/appartement-2-pieces-52923519"
+  },
+  {
     "id": "52637774",
     "city": "LYON (69003)",
     "lat": 45.752419,
@@ -7810,6 +7826,31 @@
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_lyon3monchat/catalog/images/pr_p/5/2/8/1/1/0/4/1/52811041j.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/lyon8/acheter/lyon-03/appartement-2-pieces-52811041"
+  },
+  {
+    "id": "52923520",
+    "city": "LYON (69003)",
+    "lat": 45.752419,
+    "lng": 4.887681,
+    "surface": 95,
+    "rooms": 4,
+    "price": 299000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/9/2/3/5/2/0/52923520m.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/lyon-7/acheter/lyon-03/appartement-4-pieces-52923520"
   },
   {
     "id": "52592145",
@@ -8223,28 +8264,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/7/7/2/0/2/7/52772027p.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/lyon4/acheter/lyon-04/appartement-4-pieces-52772027"
-  },
-  {
-    "id": "52809353",
-    "city": "LYON (69006)",
-    "lat": 45.770842,
-    "lng": 4.850696,
-    "surface": 44,
-    "rooms": 2,
-    "price": 150000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/0/9/3/5/3/52809353j.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/villeurbanne-republique/acheter/lyon-06/appartement-2-pieces-52809353"
   },
   {
     "id": "52893530",
@@ -19513,6 +19532,27 @@
     "source": "https://www.laforet.com/agence-immobiliere/rueilmalmaison/acheter/rueil-malmaison/appartement-6-pieces-52809360"
   },
   {
+    "id": "52889085",
+    "city": "SAINT CYR AU MONT D OR (69450)",
+    "lat": 45.815198,
+    "lng": 4.816838,
+    "surface": 45,
+    "rooms": 2,
+    "price": 219000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/8/9/0/8/5/52889085a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/8/9/0/8/5/52889085b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/8/9/0/8/5/52889085c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/8/9/0/8/5/52889085d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/8/9/0/8/5/52889085e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/8/9/0/8/5/52889085f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/8/9/0/8/5/52889085g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/8/9/0/8/5/52889085h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/8/8/9/0/8/5/52889085i.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/villeurbanne-republique/acheter/saint-cyr-au-mont-d-or/appartement-2-pieces-52889085"
+  },
+  {
     "id": "52641049",
     "city": "SAINT GENIS LAVAL (69230)",
     "lat": 45.687729,
@@ -20098,6 +20138,25 @@
     "source": "https://www.laforet.com/agence-immobiliere/strasbourg/acheter/strasbourg/appartement-2-pieces-52913822"
   },
   {
+    "id": "52923517",
+    "city": "STRASBOURG (67000)",
+    "lat": 48.579831,
+    "lng": 7.761454,
+    "surface": 27,
+    "rooms": 2,
+    "price": 172260,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/9/2/3/5/1/7/52923517a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/9/2/3/5/1/7/52923517b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/9/2/3/5/1/7/52923517c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/9/2/3/5/1/7/52923517d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/9/2/3/5/1/7/52923517e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/9/2/3/5/1/7/52923517f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/9/2/3/5/1/7/52923517g.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/strasbourg-orangerie/acheter/strasbourg/appartement-2-pieces-52923517"
+  },
+  {
     "id": "52689577",
     "city": "STRASBOURG (67000)",
     "lat": 48.579831,
@@ -20358,27 +20417,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/8/0/6/0/2/3/52806023e.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/strasbourg/acheter/strasbourg/appartement-4-pieces-52806023"
-  },
-  {
-    "id": "52897481",
-    "city": "STRASBOURG (67000)",
-    "lat": 48.579831,
-    "lng": 7.761454,
-    "surface": 121,
-    "rooms": 5,
-    "price": 407000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/9/7/4/8/1/52897481a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/9/7/4/8/1/52897481b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/9/7/4/8/1/52897481c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/9/7/4/8/1/52897481d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/9/7/4/8/1/52897481e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/9/7/4/8/1/52897481f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/9/7/4/8/1/52897481g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/9/7/4/8/1/52897481h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/9/7/4/8/1/52897481i.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/strasbourg-orangerie/acheter/strasbourg/appartement-5-pieces-52897481"
   },
   {
     "id": "52473518",
@@ -22594,6 +22632,29 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/6/4/0/5/4/7/52640547j.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/vincennes-mairie/acheter/vincennes/appartement-2-pieces-52640547"
+  },
+  {
+    "id": "52805646",
+    "city": "VINCENNES (94300)",
+    "lat": 48.841867,
+    "lng": 2.435916,
+    "surface": 38,
+    "rooms": 2,
+    "price": 315000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vincennesmairie_uwh/catalog/images/pr_p/5/2/8/0/5/6/4/6/52805646l.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/vincennes-mairie/acheter/vincennes/appartement-2-pieces-52805646"
   },
   {
     "id": "52526312",

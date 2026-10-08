@@ -685,6 +685,30 @@
     "source": "https://www.laforet.com/agence-immobiliere/balma/acheter/balma/appartement-2-pieces-52916032"
   },
   {
+    "id": "17927190",
+    "city": "BALMA (31130)",
+    "lat": 43.614966,
+    "lng": 1.50312,
+    "surface": 63,
+    "rooms": 3,
+    "price": 240000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/1/7/9/2/7/1/9/0/17927190l.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/balma/acheter/balma/appartement-3-pieces-17927190"
+  },
+  {
     "id": "52491368",
     "city": "BEAUZELLE (31700)",
     "lat": 43.668853,
@@ -3817,6 +3841,24 @@
     "source": "https://www.laforet.com/agence-immobiliere/cannes/acheter/cannes/appartement-2-pieces-52766214"
   },
   {
+    "id": "52972613",
+    "city": "CANNES (06400)",
+    "lat": 43.552228,
+    "lng": 7.022981,
+    "surface": 55,
+    "rooms": 2,
+    "price": 269000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/5/2/9/7/2/6/1/3/52972613a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/5/2/9/7/2/6/1/3/52972613b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/5/2/9/7/2/6/1/3/52972613c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/5/2/9/7/2/6/1/3/52972613d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/5/2/9/7/2/6/1/3/52972613e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/5/2/9/7/2/6/1/3/52972613f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/cannes/acheter/cannes/appartement-2-pieces-52972613"
+  },
+  {
     "id": "52399921",
     "city": "CANNES (06400)",
     "lat": 43.552228,
@@ -4112,7 +4154,7 @@
     "lng": 7.022981,
     "surface": 74,
     "rooms": 2,
-    "price": 689000,
+    "price": 667800,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-croisette_dij/catalog/images/pr_p/5/2/6/1/5/1/2/0/52615120a.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-croisette_dij/catalog/images/pr_p/5/2/6/1/5/1/2/0/52615120b.jpg",
@@ -4247,6 +4289,26 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-croisette_dij/catalog/images/pr_p/5/2/8/3/0/0/8/0/52830080m.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/cannes-croisette/acheter/cannes/appartement-4-pieces-52830080"
+  },
+  {
+    "id": "21457228",
+    "city": "CANNES LA BOCCA (06150)",
+    "lat": 43.553309,
+    "lng": 6.969632,
+    "surface": 27,
+    "rooms": 2,
+    "price": 120000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/2/1/4/5/7/2/2/8/21457228a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/2/1/4/5/7/2/2/8/21457228b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/2/1/4/5/7/2/2/8/21457228c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/2/1/4/5/7/2/2/8/21457228d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/2/1/4/5/7/2/2/8/21457228e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/2/1/4/5/7/2/2/8/21457228f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/2/1/4/5/7/2/2/8/21457228g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_cannes-carnot_nqd/catalog/images/pr_p/2/1/4/5/7/2/2/8/21457228h.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/cannes/acheter/cannes/appartement-2-pieces-21457228"
   },
   {
     "id": "52895290",
@@ -6608,6 +6670,28 @@
     "source": "https://www.laforet.com/agence-immobiliere/montpellierportmarianne/acheter/juvignac/appartement-2-pieces-52738355"
   },
   {
+    "id": "52972606",
+    "city": "JUVIGNAC (34990)",
+    "lat": 43.620712,
+    "lng": 3.801257,
+    "surface": 85,
+    "rooms": 3,
+    "price": 255000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/2/6/0/6/52972606j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/montpellierportmarianne/acheter/juvignac/appartement-3-pieces-52972606"
+  },
+  {
     "id": "52628634",
     "city": "JUVIGNAC (34990)",
     "lat": 43.620712,
@@ -6667,6 +6751,24 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_aubagne_jsn/catalog/images/pr_p/5/2/7/4/3/7/3/8/52743738j.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/aubagne/acheter/la-ciotat/appartement-3-pieces-52743738"
+  },
+  {
+    "id": "52973117",
+    "city": "LA GRANDE MOTTE (34280)",
+    "lat": 43.566897,
+    "lng": 4.073976,
+    "surface": 21,
+    "rooms": 1,
+    "price": 129000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/3/1/1/7/52973117a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/3/1/1/7/52973117b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/3/1/1/7/52973117c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/3/1/1/7/52973117d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/3/1/1/7/52973117f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_montpellier_lr/catalog/images/pr_p/5/2/9/7/3/1/1/7/52973117g.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/montpellierportmarianne/acheter/la-grande-motte/appartement-1-piece-52973117"
   },
   {
     "id": "52928288",
@@ -6933,6 +7035,21 @@
     "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-1-piece-52954312"
   },
   {
+    "id": "52973342",
+    "city": "LEVALLOIS PERRET (92300)",
+    "lat": 48.891253,
+    "lng": 2.289757,
+    "surface": 28,
+    "rooms": 1,
+    "price": 245000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/7/3/3/4/2/52973342a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/7/3/3/4/2/52973342b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/7/3/3/4/2/52973342c.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-1-piece-52973342"
+  },
+  {
     "id": "52972470",
     "city": "LEVALLOIS PERRET (92300)",
     "lat": 48.891253,
@@ -7040,33 +7157,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/0/1/2/3/3/52901233g.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-2-pieces-52901233"
-  },
-  {
-    "id": "52933823",
-    "city": "LEVALLOIS PERRET (92300)",
-    "lat": 48.891253,
-    "lng": 2.289757,
-    "surface": 60,
-    "rooms": 3,
-    "price": 535000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823m.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823n.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/3/3/8/2/3/52933823o.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-3-pieces-52933823"
   },
   {
     "id": "52914896",
@@ -8304,7 +8394,7 @@
     "lng": 4.818242,
     "surface": 87,
     "rooms": 4,
-    "price": 465000,
+    "price": 449000,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/8/2/8/2/2/52682822a.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_lyon4/catalog/images/pr_p/5/2/6/8/2/8/2/2/52682822b.jpg",
@@ -8591,36 +8681,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/lyon-7/acheter/lyon-07/appartement-3-pieces-52513125#section-video"
   },
   {
-    "id": "52379997",
-    "city": "LYON (69007)",
-    "lat": 45.747921,
-    "lng": 4.841895,
-    "surface": 80,
-    "rooms": 4,
-    "price": 313000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997m.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997n.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997o.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997p.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997q.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/5/2/3/7/9/9/9/7/52379997r.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/lyon-7/acheter/lyon-07/appartement-4-pieces-52379997#section-video"
-  },
-  {
     "id": "22454834",
     "city": "LYON (69007)",
     "lat": 45.747921,
@@ -8697,6 +8757,32 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/6/8/6/1/4/7/52686147n.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/villeurbanne-republique/acheter/lyon-07/appartement-4-pieces-52686147"
+  },
+  {
+    "id": "20806935",
+    "city": "LYON (69007)",
+    "lat": 45.747921,
+    "lng": 4.841895,
+    "surface": 104,
+    "rooms": 4,
+    "price": 492000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935m.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/2/0/8/0/6/9/3/5/20806935n.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/lyon-7/acheter/lyon-07/appartement-4-pieces-20806935"
   },
   {
     "id": "52767540",
@@ -10603,6 +10689,26 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_zxkslyhaeiwd/catalog/images/pr_p/5/2/8/2/3/3/5/3/52823353f.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/marseille11/acheter/marseille-11/appartement-3-pieces-52823353"
+  },
+  {
+    "id": "52957790",
+    "city": "MARSEILLE (13012)",
+    "lat": 43.30257,
+    "lng": 5.417143,
+    "surface": 85,
+    "rooms": 4,
+    "price": 296800,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille8/catalog/images/pr_p/5/2/9/5/7/7/9/0/52957790a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille8/catalog/images/pr_p/5/2/9/5/7/7/9/0/52957790b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille8/catalog/images/pr_p/5/2/9/5/7/7/9/0/52957790c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille8/catalog/images/pr_p/5/2/9/5/7/7/9/0/52957790d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille8/catalog/images/pr_p/5/2/9/5/7/7/9/0/52957790e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille8/catalog/images/pr_p/5/2/9/5/7/7/9/0/52957790f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille8/catalog/images/pr_p/5/2/9/5/7/7/9/0/52957790g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_marseille8/catalog/images/pr_p/5/2/9/5/7/7/9/0/52957790h.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/marseille8/acheter/marseille/appartement-4-pieces-52957790"
   },
   {
     "id": "22608541",
@@ -15123,6 +15229,27 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris4-marais/acheter/paris-03/appartement-2-pieces-52924651"
   },
   {
+    "id": "52967093",
+    "city": "PARIS (75003)",
+    "lat": 48.862299,
+    "lng": 2.359435,
+    "surface": 38,
+    "rooms": 2,
+    "price": 430000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/9/6/7/0/9/3/52967093a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/9/6/7/0/9/3/52967093b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/9/6/7/0/9/3/52967093c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/9/6/7/0/9/3/52967093d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/9/6/7/0/9/3/52967093e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/9/6/7/0/9/3/52967093f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/9/6/7/0/9/3/52967093g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/9/6/7/0/9/3/52967093h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/9/6/7/0/9/3/52967093i.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris3-marais/acheter/paris/appartement-2-pieces-52967093"
+  },
+  {
     "id": "52898256",
     "city": "PARIS (75003)",
     "lat": 48.862299,
@@ -15608,6 +15735,31 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris17levis/acheter/paris-11/appartement-3-pieces-52957817"
   },
   {
+    "id": "52973054",
+    "city": "PARIS (75011)",
+    "lat": 48.858668,
+    "lng": 2.375285,
+    "surface": 76,
+    "rooms": 3,
+    "price": 749000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/3/0/5/4/52973054m.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris11voltaire/acheter/paris-11/appartement-3-pieces-52973054"
+  },
+  {
     "id": "52919618",
     "city": "PARIS (75011)",
     "lat": 48.858668,
@@ -15812,6 +15964,29 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris11bastille/catalog/images/pr_p/5/2/9/6/7/7/2/1/52967721k.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/paris11bastille/acheter/paris-12/appartement-2-pieces-52967721"
+  },
+  {
+    "id": "52968199",
+    "city": "PARIS (75012)",
+    "lat": 48.836689,
+    "lng": 2.390375,
+    "surface": 51,
+    "rooms": 3,
+    "price": 485000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/6/8/1/9/9/52968199l.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris15convention/acheter/paris/appartement-3-pieces-52968199"
   },
   {
     "id": "52967984",
@@ -16077,6 +16252,28 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris13-jeannedarc/acheter/paris-13/appartement-3-pieces-52612518"
   },
   {
+    "id": "22115409",
+    "city": "PARIS (75013)",
+    "lat": 48.825934,
+    "lng": 2.385106,
+    "surface": 70,
+    "rooms": 3,
+    "price": 629000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc/catalog/images/pr_p/2/2/1/1/5/4/0/9/22115409j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris13-jeannedarc/acheter/paris-13/appartement-3-pieces-22115409"
+  },
+  {
     "id": "52543185",
     "city": "PARIS (75013)",
     "lat": 48.825934,
@@ -16248,6 +16445,36 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris14alesia/acheter/paris-14/appartement-1-piece-52965914"
   },
   {
+    "id": "52973078",
+    "city": "PARIS (75014)",
+    "lat": 48.826672,
+    "lng": 2.334509,
+    "surface": 24,
+    "rooms": 1,
+    "price": 254000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078m.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078n.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078o.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078p.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078q.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/3/0/7/8/52973078r.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris14alesia/acheter/paris-14/appartement-1-piece-52973078"
+  },
+  {
     "id": "52970762",
     "city": "PARIS (75014)",
     "lat": 48.826672,
@@ -16390,6 +16617,36 @@
       "https://laforetbusiness.laforet-intranet.com/office9/lfparis15_060923/catalog/images/pr_p/5/2/9/7/0/7/8/8/52970788j.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/paris15convention/acheter/paris-14/appartement-3-pieces-52970788"
+  },
+  {
+    "id": "52972861",
+    "city": "PARIS (75014)",
+    "lat": 48.826672,
+    "lng": 2.334509,
+    "surface": 52,
+    "rooms": 2,
+    "price": 530000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861m.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861n.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861o.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861p.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861q.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris14alesia/catalog/images/pr_p/5/2/9/7/2/8/6/1/52972861r.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris14alesia/acheter/paris-14/appartement-2-pieces-52972861#section-video"
   },
   {
     "id": "52842574",
@@ -16986,7 +17243,8 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/8/5/9/8/7/8/52859878l.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/8/5/9/8/7/8/52859878m.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/8/5/9/8/7/8/52859878n.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/8/5/9/8/7/8/52859878o.jpg"
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/8/5/9/8/7/8/52859878o.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris3marais/catalog/images/pr_p/5/2/8/5/9/8/7/8/52859878p.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/paris-4-arsenal/acheter/paris-15/appartement-3-pieces-52859878"
   },
@@ -17799,6 +18057,30 @@
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/7/2/5/6/0/52972560l.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/paris18julesjoffrin/acheter/paris-18/appartement-1-piece-52972560"
+  },
+  {
+    "id": "52959384",
+    "city": "PARIS (75018)",
+    "lat": 48.883408,
+    "lng": 2.33969,
+    "surface": 26,
+    "rooms": 2,
+    "price": 240000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris11voltaire/catalog/images/pr_p/5/2/9/5/9/3/8/4/52959384m.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris18julesjoffrin/acheter/paris-18/appartement-2-pieces-52959384"
   },
   {
     "id": "52972562",
@@ -18998,33 +19280,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/5/2/4/3/5/4/4/9/52435449f.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/puteaux/acheter/puteaux/appartement-3-pieces-52435449"
-  },
-  {
-    "id": "21718039",
-    "city": "PUTEAUX (92800)",
-    "lat": 48.875556,
-    "lng": 2.242315,
-    "surface": 70,
-    "rooms": 3,
-    "price": 575000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039m.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039n.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_puteaux_mvj/catalog/images/pr_p/2/1/7/1/8/0/3/9/21718039o.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/puteaux/acheter/puteaux/appartement-3-pieces-21718039"
   },
   {
     "id": "52833415",
@@ -20869,33 +21124,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/strasbourg-orangerie/acheter/strasbourg/appartement-4-pieces-52473518"
   },
   {
-    "id": "52923841",
-    "city": "STRASBOURG (67000)",
-    "lat": 48.579831,
-    "lng": 7.761454,
-    "surface": 197,
-    "rooms": 8,
-    "price": 550000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841m.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841n.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/2/3/8/4/1/52923841o.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/strasbourg/acheter/strasbourg/appartement-8-pieces-52923841"
-  },
-  {
     "id": "52889055",
     "city": "STRASBOURG (67000)",
     "lat": 48.579831,
@@ -20914,36 +21142,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_petjgnadioyc/catalog/images/pr_p/5/2/8/8/9/0/5/5/52889055h.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/strasbourg-orangerie/acheter/strasbourg/appartement-4-pieces-52889055"
-  },
-  {
-    "id": "52970982",
-    "city": "STRASBOURG (67000)",
-    "lat": 48.579831,
-    "lng": 7.761454,
-    "surface": 155,
-    "rooms": 4,
-    "price": 670000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982m.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982n.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982o.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982p.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982q.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_vendenheim/catalog/images/pr_p/5/2/9/7/0/9/8/2/52970982r.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/strasbourg/acheter/strasbourg/appartement-4-pieces-52970982"
   },
   {
     "id": "52946322",
@@ -21445,7 +21643,7 @@
     "lng": -0.587872,
     "surface": 25,
     "rooms": 1,
-    "price": 106600,
+    "price": 99600,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/8/5/5/0/4/8/52855048a.jpg",
       "https://laforetbusiness.laforet-intranet.com/office6/laforet_pessac/catalog/images/pr_p/5/2/8/5/5/0/4/8/52855048b.jpg",
@@ -22251,6 +22449,28 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_blagnac/catalog/images/pr_p/5/2/4/9/4/4/5/4/52494454g.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/blagnac/acheter/toulouse/appartement-4-pieces-52494454"
+  },
+  {
+    "id": "52959010",
+    "city": "TOULOUSE (31400)",
+    "lat": 43.582019,
+    "lng": 1.446558,
+    "surface": 64,
+    "rooms": 3,
+    "price": 299000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_balma/catalog/images/pr_p/5/2/9/5/9/0/1/0/52959010j.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/balma/acheter/toulouse/appartement-3-pieces-52959010"
   },
   {
     "id": "52819238",
@@ -23122,7 +23342,7 @@
     "lng": 4.888672,
     "surface": 70,
     "rooms": 3,
-    "price": 295000,
+    "price": 285000,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/4/9/3/4/2/8/52493428a.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/2/4/9/3/4/2/8/52493428b.jpg",

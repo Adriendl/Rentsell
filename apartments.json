@@ -424,26 +424,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/antibes/acheter/antibes/appartement-3-pieces-52914625"
   },
   {
-    "id": "52966027",
-    "city": "ANTIBES (06600)",
-    "lat": 43.605978,
-    "lng": 7.084398,
-    "surface": 64,
-    "rooms": 3,
-    "price": 389000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/9/6/6/0/2/7/52966027a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/9/6/6/0/2/7/52966027b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/9/6/6/0/2/7/52966027c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/9/6/6/0/2/7/52966027d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/9/6/6/0/2/7/52966027e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/9/6/6/0/2/7/52966027f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/9/6/6/0/2/7/52966027g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_antibes_lr/catalog/images/pr_p/5/2/9/6/6/0/2/7/52966027h.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/antibes/acheter/antibes/appartement-3-pieces-52966027"
-  },
-  {
     "id": "52913219",
     "city": "ANTIBES (06600)",
     "lat": 43.605978,
@@ -14324,6 +14304,24 @@
     "source": "https://www.laforet.com/agence-immobiliere/nantes/acheter/nantes/appartement-2-pieces-52282023"
   },
   {
+    "id": "52844055",
+    "city": "NANTES (44000)",
+    "lat": 47.233964,
+    "lng": -1.54533,
+    "surface": 28,
+    "rooms": 1,
+    "price": 135000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/8/4/4/0/5/5/52844055a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/8/4/4/0/5/5/52844055b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/8/4/4/0/5/5/52844055c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/8/4/4/0/5/5/52844055d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/8/4/4/0/5/5/52844055e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_nantes-stdonatien_xza/catalog/images/pr_p/5/2/8/4/4/0/5/5/52844055f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/nantes/acheter/nantes/appartement-1-piece-52844055"
+  },
+  {
     "id": "52888943",
     "city": "NANTES (44000)",
     "lat": 47.233964,
@@ -17609,34 +17607,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris13-jeannedarc/acheter/paris-13/appartement-3-pieces-52223921"
   },
   {
-    "id": "52512568",
-    "city": "PARIS (75013)",
-    "lat": 48.825934,
-    "lng": 2.385106,
-    "surface": 81,
-    "rooms": 4,
-    "price": 480000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568m.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568n.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568o.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris13jeannedarc_gwe/catalog/images/pr_p/5/2/5/1/2/5/6/8/52512568p.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/paris13-jeannedarc/acheter/paris-13/appartement-4-pieces-52512568"
-  },
-  {
     "id": "52849863",
     "city": "PARIS (75013)",
     "lat": 48.825934,
@@ -20009,7 +19979,7 @@
     "lng": 2.387969,
     "surface": 131,
     "rooms": 4,
-    "price": 1200000,
+    "price": 1150000,
     "images": [
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/9/1/9/7/9/5/52919795a.jpg",
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_paris20/catalog/images/pr_p/5/2/9/1/9/7/9/5/52919795b.jpg",

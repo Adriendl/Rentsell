@@ -2243,6 +2243,22 @@
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-centre/acheter/boulogne-billancourt/appartement-1-piece-52465737"
   },
   {
+    "id": "53031943",
+    "city": "BOULOGNE BILLANCOURT (92100)",
+    "lat": 48.838234,
+    "lng": 2.236147,
+    "surface": 38,
+    "rooms": 2,
+    "price": 332000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/3/0/3/1/9/4/3/53031943a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/3/0/3/1/9/4/3/53031943b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/3/0/3/1/9/4/3/53031943c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/3/0/3/1/9/4/3/53031943d.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-2-pieces-53031943"
+  },
+  {
     "id": "53031950",
     "city": "BOULOGNE BILLANCOURT (92100)",
     "lat": 48.838234,
@@ -2259,22 +2275,6 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/3/0/3/1/9/5/0/53031950f.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-2-pieces-53031950"
-  },
-  {
-    "id": "53031943",
-    "city": "BOULOGNE BILLANCOURT (92100)",
-    "lat": 48.838234,
-    "lng": 2.236147,
-    "surface": 38,
-    "rooms": 2,
-    "price": 332000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/3/0/3/1/9/4/3/53031943a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/3/0/3/1/9/4/3/53031943b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/3/0/3/1/9/4/3/53031943c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_ksmnhuflybxg/catalog/images/pr_p/5/3/0/3/1/9/4/3/53031943d.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/boulogne-nord/acheter/boulogne-billancourt/appartement-2-pieces-53031943"
   },
   {
     "id": "53022392",
@@ -8160,6 +8160,24 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/3/0/0/8/7/4/3/53008743d.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-2-pieces-53008743"
+  },
+  {
+    "id": "52961204",
+    "city": "LEVALLOIS PERRET (92300)",
+    "lat": 48.891253,
+    "lng": 2.289757,
+    "surface": 41,
+    "rooms": 3,
+    "price": 320000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/6/1/2/0/4/52961204a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/6/1/2/0/4/52961204b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/6/1/2/0/4/52961204c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/6/1/2/0/4/52961204d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/6/1/2/0/4/52961204e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_levallois/catalog/images/pr_p/5/2/9/6/1/2/0/4/52961204f.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/levallois/acheter/levallois-perret/appartement-3-pieces-52961204"
   },
   {
     "id": "52987238",
@@ -21348,6 +21366,31 @@
     "source": "https://www.laforet.com/agence-immobiliere/paris17ternes/acheter/paris-17/appartement-3-pieces-53011316"
   },
   {
+    "id": "53036533",
+    "city": "PARIS (75017)",
+    "lat": 48.883366,
+    "lng": 2.313928,
+    "surface": 72,
+    "rooms": 3,
+    "price": 910000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office6/laforet_paris17villiers/catalog/images/pr_p/5/3/0/3/6/5/3/3/53036533m.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/paris17ternes/acheter/paris-17/appartement-3-pieces-53036533"
+  },
+  {
     "id": "52988580",
     "city": "PARIS (75017)",
     "lat": 48.883366,
@@ -27286,31 +27329,6 @@
     "source": "https://www.laforet.com/agence-immobiliere/villeurbanne-republique/acheter/villeurbanne/appartement-2-pieces-52771597"
   },
   {
-    "id": "53007811",
-    "city": "VILLEURBANNE (69100)",
-    "lat": 45.778215,
-    "lng": 4.888672,
-    "surface": 74,
-    "rooms": 3,
-    "price": 233000,
-    "images": [
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811a.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811b.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811c.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811d.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811e.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811f.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811g.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811h.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811i.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811j.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811k.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811l.jpg",
-      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811m.jpg"
-    ],
-    "source": "https://www.laforet.com/agence-immobiliere/villeurbanne-republique/acheter/villeurbanne/appartement-3-pieces-53007811"
-  },
-  {
     "id": "17961299",
     "city": "VILLEURBANNE (69100)",
     "lat": 45.778215,
@@ -27334,6 +27352,31 @@
       "https://laforetbusiness.laforet-intranet.com/office9/laforet_rmerindol/catalog/images/pr_p/1/7/9/6/1/2/9/9/17961299m.jpg"
     ],
     "source": "https://www.laforet.com/agence-immobiliere/lyon-7/acheter/villeurbanne/appartement-3-pieces-17961299#section-video"
+  },
+  {
+    "id": "53007811",
+    "city": "VILLEURBANNE (69100)",
+    "lat": 45.778215,
+    "lng": 4.888672,
+    "surface": 74,
+    "rooms": 3,
+    "price": 233000,
+    "images": [
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811a.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811b.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811c.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811d.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811e.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811f.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811g.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811h.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811i.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811j.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811k.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811l.jpg",
+      "https://laforetbusiness.laforet-intranet.com/office9/laforet_20190603/catalog/images/pr_p/5/3/0/0/7/8/1/1/53007811m.jpg"
+    ],
+    "source": "https://www.laforet.com/agence-immobiliere/villeurbanne-republique/acheter/villeurbanne/appartement-3-pieces-53007811"
   },
   {
     "id": "52846033",
